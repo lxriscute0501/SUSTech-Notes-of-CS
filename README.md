@@ -1,2 +1,3 @@
 # SUSTech-Notes-of-CS
-Undergraduc
+Undergraduate Courses of Computer Science in SUSTech.
+
