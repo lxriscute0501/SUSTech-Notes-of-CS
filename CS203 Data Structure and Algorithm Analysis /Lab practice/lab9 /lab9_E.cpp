@@ -62,10 +62,12 @@ int main()
                 }
             }
         }
+    
         int ans = 0;
         for (int i=1; i<=sum; i++) {
             if (rg[i].size() == 0) ans++;
         }
     if (rg[color[s]].size() == 0) cout << ans - 1; else cout << ans;
+    
     return 0;
 }
