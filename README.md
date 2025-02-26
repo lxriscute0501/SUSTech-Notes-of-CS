@@ -1,7 +1,7 @@
 # SUSTech-Notes-of-CS
 
 ## Introduction
-  Because the contributor, me, major in Mathematics, it's impossible for me to study all the required courses of Computer Science major. However, I will do my best to make this repository more complete. If you have any course meterials which is not included here, you can just contact me via `lixuanran798@gmail.com` . Much appreciation for any contribution!
+  Because the contributor, I, major in Mathematics, it's impossible for me to study all the required courses of Computer Science major. However, I will do my best to make this repository more complete. If you have any course meterials which is not included here, you can just contact me via `lixuanran798@gmail.com` . Much appreciation for any contribution!
 
 ## Course List
 
@@ -24,7 +24,7 @@
 | [CS112 Python ](./CS112%20Introduction%20to%20Python%20Programming%20)  | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [CS201 Discrete Math ](./CS201%20Discrete%20Mathematics%20) | Updating... | ❌ | ❌ | Updating... | Updating... | ✅(optional) |
 | [CS203 DSAA ](./CS203%20Data%20Structure%20and%20Algorithm%20Analysis%20) | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |
-| [CS207 DL ](./CS207%20Digital%20Logic%20) | ✅ | ✅ | ✅ | ✅ | ✅(lab, online) | ✅ |
+| [CS207 DL ](./CS207%20Digital%20Logic%20) | ✅ | ✅ | ✅ | ✅ | ✅(lab, on BB) | ✅ |
 | [CS208 ADA ](./CS208%20Algorithm%20Design%20and%20Analysis%20) | Updating... | Updating... | Updating... | Updating... | Updating... | ❌ |
 
 
