@@ -10,12 +10,13 @@ Because the contributor, lxr, major in **Mathematics**, it's impossible for me t
 
 | Course | Semester | Instructor | Remark |
 | :-------- | :-------: | :-------: | :-------: |
-| [CS109 Introduction to Computer(JavaA) Programming ](./CS109%20Introduction%20to%20Computer(JavaA)%20Programming%20) | 25 spring | Yepang Liu |  |
+| [CS109 Introduction to Computer(JavaA) Programming ](./CS109%20Introduction%20to%20Computer(JavaA)%20Programming%20) | 25 spring | Yepang Liu | 24 spring self-learned |
 | [CS112 Introduction to Python Programming ](./CS112%20Introduction%20to%20Python%20Programming%20)  | 24 spring | Sheng Wei |  |
 | [CS201 Discrete Mathematics ](./CS201%20Discrete%20Mathematics%20) | 25 spring | Ming Tang |  |
 | [CS203 Data Structure and Algorithm Analysis ](./CS203%20Data%20Structure%20and%20Algorithm%20Analysis%20) | 24 fall | Bo Tang |  |
 | [CS207 Digital Logic ](./CS207%20Digital%20Logic%20) | 24 fall | Yuhui Bai |  |
 | [CS208 Algorithm Design and Analysis ](./CS208%20Algorithm%20Design%20and%20Analysis%20) | 25 spring | Yuhui Shi |  |
+| [CS307 Principles of Database Systems ](./CS307%20Principles%20of%20Database%20Systems%20) | 25 fall | Unknown | 24 fall self-learned |
 
 ### What is included?
 
@@ -27,6 +28,7 @@ Because the contributor, lxr, major in **Mathematics**, it's impossible for me t
 | [CS203 DSAA ](./CS203%20Data%20Structure%20and%20Algorithm%20Analysis%20) | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |
 | [CS207 DL ](./CS207%20Digital%20Logic%20) | ✅ | ✅ | ✅ | ✅ | ✅(lab, on BB) | ✅ |
 | [CS208 ADA ](./CS208%20Algorithm%20Design%20and%20Analysis%20) | Updating... | Updating... | Updating... | Updating... | Updating... | ❌ |
+| [CS307 Database ](./CS307%20Principles%20of%20Database%20Systems%20) | ✅ | ✅ | ✅ | | | ✅ |
 
 >⚠️: The lab practices and assignments may very similar, even same, in nearby years, but please **DO NOT** copy the code directly, especially submit the code on OJ! Hope you can do it by yourself and get "AC"!
 
