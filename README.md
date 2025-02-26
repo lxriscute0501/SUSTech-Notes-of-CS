@@ -21,11 +21,11 @@
 | Course | Lecture Slide | Lab Slide | Lab Assignment | Theory Assignment | Quiz | Project |
 | :-------- | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
 | [CS109 JavaA ](./CS109%20Introduction%20to%20Computer(JavaA)%20Programming%20) | Updating... | Updating... | Updating... | ❌ | Updating... | Updating... | 
-| [CS112 Introduction to Python Programming ](./CS112%20Introduction%20to%20Python%20Programming%20)  | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
-| [CS201 Discrete Mathematics ](./CS201%20Discrete%20Mathematics%20) | Updating... | ❌ | ❌ | Updating... | Updating... | ✅(optional) |
-| [CS203 Data Structure and Algorithm Analysis ](./CS203%20Data%20Structure%20and%20Algorithm%20Analysis%20) | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |
-| [CS207 Digital Logic ](./CS207%20Digital%20Logic%20) | ✅ | ✅ | ✅ | ✅ | ✅(lab, online) | ✅ |
-| [CS208 Algorithm Design and Analysis ](./CS208%20Algorithm%20Design%20and%20Analysis%20) | Updating... | Updating... | Updating... | Updating... | Updating... | ❌ |
+| [CS112 Python ](./CS112%20Introduction%20to%20Python%20Programming%20)  | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
+| [CS201 Discrete Math ](./CS201%20Discrete%20Mathematics%20) | Updating... | ❌ | ❌ | Updating... | Updating... | ✅(optional) |
+| [CS203 DSAA ](./CS203%20Data%20Structure%20and%20Algorithm%20Analysis%20) | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |
+| [CS207 DL ](./CS207%20Digital%20Logic%20) | ✅ | ✅ | ✅ | ✅ | ✅(lab, online) | ✅ |
+| [CS208 ADA ](./CS208%20Algorithm%20Design%20and%20Analysis%20) | Updating... | Updating... | Updating... | Updating... | Updating... | ❌ |
 
 
 
