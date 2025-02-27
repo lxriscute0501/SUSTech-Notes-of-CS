@@ -30,7 +30,8 @@ Because the contributor, lxr, major in **Mathematics**, it's impossible for me t
 | [CS208 ADA ](./CS208%20Algorithm%20Design%20and%20Analysis%20) | Updating... | Updating... | Updating... | Updating... | Updating... | ❌ |
 | [CS307 Database ](./CS307%20Principles%20of%20Database%20Systems%20) | ✅ | ✅ | ✅ | | | ✅ |
 
->⚠️: The lab practices and assignments may very similar, even same, in nearby years, but please **DO NOT** copy the code directly, especially submit the code on OJ! Hope you can do it by yourself and get "AC"!
+>[!warning]
+> The lab practices and assignments may very similar, even same, in nearby years, but please **DO NOT** copy the code directly, especially submit the code on OJ! Hope you can do it by yourself and get "AC"!
 
 ## Conclusion
 
