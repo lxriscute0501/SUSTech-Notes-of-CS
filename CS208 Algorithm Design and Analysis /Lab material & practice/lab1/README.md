@@ -68,7 +68,7 @@ Move disk 1 from A to C
 
 **Find the number of ways a `2 * n` rectangle can be tiled with rectangular tiles of size `2 * 1`.**
 
-![WechatIMG595](media/17406301523676/WechatIMG595.jpg)
+![image](media/17406301523676/WechatIMG595.jpg)
 
 ### Analysis
 
@@ -80,14 +80,14 @@ Now we consider the ways to fill when `n >= 3`.We have two options:
 
 So the number of ways to fill the `2 * n` rectangle will be:
 
-```math
+$$
 count(n) =
 \begin{cases}
-1, & n = 1 \\
-2, & n = 2 \\
-count(n - 1) + count(n - 2), & n >= 3 \\
+1,  & n = 1 \\
+2,  & n = 2 \\
+count(n - 1) + count(n - 2),  & n \geq 3 \\
 \end{cases}
-```
+$$
 
 and it is smiliar with the **Fibonacci sequence**.
 
