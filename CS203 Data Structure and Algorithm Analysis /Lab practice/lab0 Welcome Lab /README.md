@@ -1,6 +1,8 @@
 # lab0 Welcome Lab
 Score: A-15 B-15 C-20 D-20 E-25 F-25
 
+<br>
+
 ## A. Search Problem I
 
 ### Description
@@ -9,9 +11,12 @@ Given two arrays ``A`` with length ``n`` and ``B`` with length ``T``. We want to
 
 ### Input
 
-The 1st line is a positive integer ``n (1 <= n <= 1000)``.     
-The 2nd line contains ``n`` integers: ``a1, a2, ..., an``. For each ``ai``, ``0 <= ai <= 1e9``.     
+The 1st line is a positive integer ``n (1 <= n <= 1000)``.   
+
+The 2nd line contains ``n`` integers: ``a1, a2, ..., an``. For each ``ai``, ``0 <= ai <= 1e9``.  
+
 The 3rd line contains a positive integer ``T (1 <= T <= 1000)``.        
+
 The 4th line contains ``T`` integers ``b1, b2, ..., bT``. For each ``bi``, ``0 <= bi <= 1e9``.     
 
 ### Output
@@ -44,9 +49,13 @@ Since the input is large, you may need fast I/O (in Java). Java Faster I/O is sh
 ### Input
 
 The 1st line is a positive integer ``n (1 <= n <= 1e6)``.     
-The 2nd line contains ``n`` integers: ``a1, a2, ..., an``. For each ``ai``, ``0 <= ai <= 1e5``.     
+
+The 2nd line contains ``n`` integers: ``a1, a2, ..., an``. For each ``ai``, ``0 <= ai <= 1e5``.    
+
 The 3rd line contains a positive integer ``T (1 <= T <= 1e6)``.        
+
 The 4th line contains ``T`` integers ``b1, b2, ..., bT``. For each ``bi``, ``0 <= bi <= 1e5``.   
+
 
 ### Output
 
@@ -84,6 +93,7 @@ For the same type: ``W1 > W2 > W3 > W4 > W5 > W6 > W7 > W8 > W9``
 Notice that: For each kind of tile, there are totally four duplicate ones.
 
 ### Input
+
 The first line of input is the number of test cases ``T (1 <= T <= 200)``        
 For each test case, there are 13 strings in one line, showing the Mahjong tiles you have.
 
