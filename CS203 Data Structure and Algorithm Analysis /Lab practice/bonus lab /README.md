@@ -22,9 +22,9 @@ The first line is a positive integer `T (1 <= T <= 10000)` which is the number o
 
 For each test case:       
 
-The first line contains two integers `n (1 <= n <= 30000)` and `k (1 <= k <= 1012)`, representing the number of different length of sticks and the number of rows the stick needs to be divided into, respectively.       
+The first line contains two integers `n (1 <= n <= 30000)` and `k (1 <= k <= 1e12)`, representing the number of different length of sticks and the number of rows the stick needs to be divided into, respectively.       
 
-The second line contains `n` integers `C1, C2, ...,Cn (0 <= Ci <= 1012)`, representing the number of sticks in each length.    
+The second line contains `n` integers `C1, C2, ...,Cn (0 <= Ci <= 1e12)`, representing the number of sticks in each length.    
 
 Ensure that the sum of `n` of all cases does not exceed `30000`.     
 
