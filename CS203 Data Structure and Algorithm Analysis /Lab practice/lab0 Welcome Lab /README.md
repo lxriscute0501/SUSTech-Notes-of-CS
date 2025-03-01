@@ -66,3 +66,51 @@ yes
 no
 ```
 
+## C. Majsoul
+
+### Description
+
+Mahjong, one of the most famous games in China, has aroused lanran’s interest. However, it is a little bit complex for a new bee and he needs your help: To sort 13 Mahjong tiles in order, so that he can make decision much easier. Here is the rule of sorting Mahjong tiles:
+
+1. Mahjong tiles can be roughly divided into four types, ‘萬’, ‘筒’, ’条’, ‘字’. For the first three types, each type has 9 different numbers(‘1’ to ‘9’), usually noted by ‘1萬’, ‘2萬’, ’1条’, ’2条’. If you still get puzzled, just imagine that we express the cards in ‘UNO’ by a number and a Chinese character rather than a colour. For the last type, there are only 7 kinds of tiles, ‘東’, ‘南’, ‘西’, ‘北’, ’白’, ’發’, ’中’.
+
+2. ‘萬’ noted by ‘Wx’ (x is an integer between ‘1’ to ‘9’), for example (W1, W2, ...). Similarly, ‘筒’ by ‘Tx’, ‘条’ by ‘Yx’. We name those 7 tiles of the last type by ‘E’, ’S’, ’W’, ’N’, ’B’, ’F’, ’Z’ correspondingly.
+
+3. Here is the priority of Mahjong tiles: ``Wx > Tx > Yx > E > S > W > N > B > F > Z``      
+For the same type: ``W1 > W2 > W3 > W4 > W5 > W6 > W7 > W8 > W9``     
+
+Notice that: For each kind of tile, there are totally four duplicate ones.
+
+### Input
+The first line of input is the number of test cases ``T (1 <= T <= 200)``        
+For each test case, there are 13 strings in one line, showing the Mahjong tiles you have.
+
+### Output
+
+For each test case, output the ordered Mahjong tiles in one line.
+
+### Sample Input
+```
+2
+W1 S S N E N E N W E W W S
+T1 T2 T3 T5 T8 T9 T6 T4 T7 T9 T9 T1 T1
+```
+
+### Sample Output
+```
+W1 E E E S S S W W W N N N  
+T1 T1 T1 T2 T3 T4 T5 T6 T7 T8 T9 T9 T9
+```
+
+
+## D.  Maximum difference
+
+### Description
+
+
+### Input
+
+
+### Output
+
+
