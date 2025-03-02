@@ -377,3 +377,160 @@ Three lines, indicating the result of INORDER, PREORDER and POSTORDER traverse.
 abc*+de/-
 ```
 
+<br>
+
+## F. Mex Problem
+
+### Description
+
+Here are `t (1 <= t <= 1e5)` tests, each test contains two integers `a (0 <= a <= 1e9)` and `b (0 <= b <= 1e9)`, you should find the Mex of the sequence `a⊕0, a⊕1, ...,a⊕b`, here `⊕` mean **the bitwise xor** operation. 
+
+The Mex of the sequence of non-negative integers is the smallest non-negative integer that doesn't appear in this sequence.
+For example, `Mex(1, 2, 3) = 0, Mex(0, 1, 2, 4, 5) = 3`.
+
+
+### Input
+
+The first line contains a single integer `t (1 <= t <= 1e5)`, indicates the number of test cases.    
+
+The first and only line of each test case contains two integers `a` and `b` `(0 <= a, b <= 1e9)`.   
+
+### Output
+
+For each test case, print a line contains a single integer  — the answer to the problem.
+
+### Sample Input
+```
+3
+0 9
+8 6
+9 9
+```
+
+### Sample Output
+```
+10
+0
+2
+```
+
+<br>
+
+## G. Exchange
+
+### Description
+
+Give you `n` linklists, each with`m` numbers inside. The chains index are numbered `0` to `n-1`, and the nodes on the initial `i-th` chain are numbered `(i*m), (i*m+1), ......,(i*m+(m-1))`
+
+After that you are given `k` operations, each operation will select two node numbers `a, b`. Disconnect the right side of `a` and the left side of `b` on the current linklist into four parts, then join `a` and `b` together and join the remaining two disconnected parts together.
+
+For example, `n = 3, m = 5`. If you choose `a, b = 1, 7` then the result after reconnection is `[5, 6, 2, 3, 4]` and `[0, 1, 7, 8, 9]`.
+
+After these operations, ask for all the nodes of the linklist where node `x` is located and output them from left to right.   
+
+### Input
+
+First line 4 numbers: `n, m, k, x  (n*m < 1e6, 0 < k < 2e5)`.  
+
+Then follow `k` lines, each line two numbers: `a, b (0 <= a, b < n*m)` meaning the nodes selected.   
+
+> It is guaranteed that the two nodes selected each time are not currently in the same chain.
+
+### Output
+
+A line containing a lot of numbers of all the index of nodes in the linklist where node `x` is located and output them from left to right.
+
+
+### Sample Input
+```
+3 5 1 0
+1 7
+```
+
+### Sample output
+```
+0 1 7 8 9
+```
+
+<br>
+
+## H. Skiing (Easy-15)
+
+### Description
+
+Yuki is an outgoing girl and she enjoys all the sports, especially snow sports like skiing.
+
+Now she is skiing in a world-famous ski resort — Super Ultra Ski Training Center (SUSTC). The map of SUSTC can be considered as a grid map with `n` rows and `m` columns. Since the ski facility is uneven, each grid `(i, j)` has its own height `h(i, j)`.
+
+Yuki starts her skiing at the grid `(1, 1)` — the top left grid, and her destination is at the grid `(n, m)` — the bottom right grid. Each time she can only ski to one of the adjacent grids — the left, the right, the above, or the below grid. Obviously, the minimum distance for Yuki to ski to the destination is `n + m - 2` if she chooses an arbitrary Manhattan path.
+
+However, with the elevation change during her skiing, Yuki’s speed will also change remarkably. Specifically, suppose that the velocity of Yuki at grid `(x, y)` is `v`, then it takes `1 / v` time units for Yuki to move to `(x, y+1)`, and the velocity at grid `(x, y+1)` will be changed to `v * 2^(h(x, y) − h(x, y+1))`. Suppose that the initial velocity when Yuki at grid `(1, 1)` is `v0 = 1`, please tell Yuki the minimum time for her to arrive at the destination.
+
+### Input
+
+The first line contains two integers: `n` and `m` `(1 <= n, m <= 300)` — size of the grid map.
+
+Each of the next `n` lines contains `m` integers. The `j-th` number in the `i-th` line denotes `h(i, j) (1 <= h(i, j) <= 15)`.
+
+### Output
+
+Print one line with the value — the minimum time for Yuki to arrive at the destination.
+
+The value should be accurated to exactly 2 decimal places.
+
+### Sample Input
+```
+2 3
+1 2 3
+4 5 6
+```
+
+### Sample Output
+```
+7.00
+```
+
+<br>
+
+## I. Minimum pearls
+
+### Description
+
+There are two kinds of pearls: black and white. When a black pearl is the left of a white pearl and they are adjacent to each other, then they will disappear. 
+
+Now, there are `n` strings of pearls, each string with `ai` white pearls on the left and `bi` black pearls on the right. Calculate the minimum number of the rest pearls when connecting these `n` strings.
+
+### Input
+
+The first line contains an integer `T`, indicating the number of test cases. 
+
+For each test case:
+
+The first line contains an integer `n (1 <= n <= 1e6)`, indicating the number of the string of beads.
+
+Each of the next `n` lines contains two integers `ai, bi (ai >= 0, bi >= 0, 1 <= ai + bi  <= 10,000).
+
+It is guaranteed that `∑(ai + bi) <= 500,000`.   
+
+### Output
+
+Output one integer, indicating the minimum number of the rest pearls.
+
+
+### Sample Input
+```
+2
+2
+1 2
+2 1
+2
+1 3
+2 1
+```
+
+### Sample Output
+```
+2
+3
+```
+
