@@ -323,7 +323,7 @@ In this problem, you need to:
 1. Implement a Binary Tree **using a linked list** (as explained during the lecture) to encode a mathematical expression with binary operators (`+, -, *, /`) provided in input in prefixnotation i.e. functional programming notation.
 You should use a stack to keep track of the pointers of the nodes that you will need later to fill in their right child.
 
-2. Implement the procedures INORDER, PREORDER and POSTORDER and print the respective outputs when applied to the resulting tree form Step 1.
+2. Implement the procedures **INORDER, PREORDER and POSTORDER** and print the respective outputs when applied to the resulting tree form Step 1.
 
 Example input: `-(+(a,*(b,c)),/(d,e))` which leads to the tree given in the lecture slides
 
@@ -347,7 +347,7 @@ Example input: `-(+(a,*(b,c)),/(d,e))` which leads to the tree given in the lect
    ```
 
 2. You should implement three methods for the three procedures respectively, based on the binary tree you have built with a linked list.
-       DO NOT simulate the procedures on arrays instead of linked lists, otherwise you will get a WRONG ANSWER **after the deadline** even if you have passed this problem.
+       **DO NOT** simulate the procedures on arrays instead of linked lists, otherwise you will get a **WRONG ANSWER after the deadline** even if you have passed this problem.
    
 3. Actually, you can safely ignore all `'('`, `')'` and `','`  in the input file, since the prefix notation (also known as Polish notation) is ambiguity-free without brackets.
 
