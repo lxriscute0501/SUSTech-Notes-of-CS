@@ -44,7 +44,7 @@ no
 ### Description
 
 Given two arrays ``A`` with length ``n`` and ``B`` with length ``T``. We want to know whether each element in array ``B`` is in array ``A`` or not.   
-Since the input is large, you may need fast I/O (in Java). Java Faster I/O is shown via following links: [Java Faster I/O](https://pastebin.ubuntu.com/p/zBd3g4j366/)
+Since the input is large, you may need **fast I/O** (in Java). Java Faster I/O is shown via following links: [Java Faster I/O](https://pastebin.ubuntu.com/p/zBd3g4j366/)
 
 ### Input
 
@@ -83,7 +83,7 @@ no
 
 Mahjong, one of the most famous games in China, has aroused lanran’s interest. However, it is a little bit complex for a new bee and he needs your help: To sort 13 Mahjong tiles in order, so that he can make decision much easier. Here is the rule of sorting Mahjong tiles:
 
-1. Mahjong tiles can be roughly divided into four types, ‘萬’, ‘筒’, ’条’, ‘字’. For the first three types, each type has 9 different numbers(‘1’ to ‘9’), usually noted by ‘1萬’, ‘2萬’, ’1条’, ’2条’. If you still get puzzled, just imagine that we express the cards in ‘UNO’ by a number and a Chinese character rather than a colour. For the last type, there are only 7 kinds of tiles, ‘東’, ‘南’, ‘西’, ‘北’, ’白’, ’發’, ’中’.
+1. Mahjong tiles can be roughly divided into four types, ‘萬’, ‘筒’, ’条’, ‘字’. For the first three types, each type has 9 different numbers (‘1’ to ‘9’), usually noted by ‘1萬’, ‘2萬’, ’1条’, ’2条’. If you still get puzzled, just imagine that we express the cards in ‘UNO’ by a number and a Chinese character rather than a colour. For the last type, there are only 7 kinds of tiles, ‘東’, ‘南’, ‘西’, ‘北’, ’白’, ’發’, ’中’.
 
 2. ‘萬’ noted by ‘Wx’ (x is an integer between ‘1’ to ‘9’), for example (W1, W2, ...). Similarly, ‘筒’ by ‘Tx’, ‘条’ by ‘Yx’. We name those 7 tiles of the last type by ‘E’, ’S’, ’W’, ’N’, ’B’, ’F’, ’Z’ correspondingly.
 
@@ -206,15 +206,15 @@ The rules in Mahhjong are similar with those in Mahjong, except that in Mahhjong
 
 If you are not familiar with Mahjong, here is a brief explanation:
 
-- kezi: kezi is a set of 3 identical tiles.
+- **kezi**: kezi is a set of 3 identical tiles.
 
   For example, {1s, 1s, 1s}, {3z, 3z, 3z} are kezi, but {1s, 2s, 1s} is not.
 
-- shunzi: shunzi is a set of 3 continuous tiles of the same suite, but please aware that suite zi cannot form shunzi.
+- **shunzi**: shunzi is a set of 3 continuous tiles of the same suite, but please aware that suite zi cannot form shunzi.
 
   For example, {1s, 2s, 3s}, {6b, 7b, 8b} are shunzi, but {5z, 6z, 7z} and {3w, 4w, 5s} are not.
 
-- quetou: quetou is a pair of identical tiles:
+- **quetou**: quetou is a pair of identical tiles:
 
   For example, {7z, 7z}, {6w, 6w} are quetou, but {1b, 2b} is not.
 
@@ -226,13 +226,13 @@ If you are not familiar with Mahjong, here is a brief explanation:
 
 The input contains multiple test cases. 
 
-The first line includes a single integer ``T (1 ≤ T ≤ 10000)`` -- the number of test cases.
+The first line includes a single integer ``T (1 <= T <= 10000)`` -- the number of test cases.
 
-Each of the next ``T`` lines indicates a test case. It contains a string ``s`` of 28 characters, describing the 14 tiles that Satori has. For every ``1 ≤ i ≤ 14``, the ``i-th`` tile  is described by the ``(2i − 1)-th`` and ``2i-th`` characters in the string: the former is a digit denoting the rank of the tile in its suite and the latter is one of {w, b, s, z}, which means the suite wan, bing, suo and zi respectively. It is guaranteed that all the ``s`` in the input are valid and legal.
+Each of the next ``T`` lines indicates a test case. It contains a string ``s`` of 28 characters, describing the 14 tiles that Satori has. For every ``1 <= i <= 14``, the ``i-th`` tile  is described by the ``(2i − 1)-th`` and ``2i-th`` characters in the string: the former is a digit denoting the rank of the tile in its suite and the latter is one of {w, b, s, z}, which means the suite wan, bing, suo and zi respectively. It is guaranteed that all the ``s`` in the input are valid and legal.
 
 ### Output
 
-For each test case, output a single line. If one reached the winning status, print "Blessing of Heaven", otherwise print "Bad luck" (without quotes).  
+For each test case, output a single line. If one reached the winning status, print **"Blessing of Heaven"**, otherwise print **"Bad luck"** (without quotes).  
 
 ### Sample Input
 ```
