@@ -13,7 +13,7 @@ Given a nondecreasing sequence a with length `n`. We want to know whether intege
 
 The 1st line is a positive integer `n (1 <= n <= 100000)`.
 
-The 2nd line contains `n` integers: `a1, a2, ...,an`. For each `ai (0 <= ai <= 1e9)`.
+The 2nd line contains `n` integers: `a1, a2, ..., an`. For each `ai (0 <= ai <= 1e9)`.
 
 The 3rd line is a positive integer `T (1 <= T <= 100000)` which is the number of test case.
 
@@ -237,7 +237,7 @@ int main()
 
 Given two nondecreasing sequences `a` and `b`, and their length are both `n`. What's the median of after combining the subarray `a[l..r]` and subarray `b[l..r]`?
 
-Subarray `a[l..r]` is a sub-array of `a`, it includes `al, al+1, ...,ar` for `1 <= l <= r <= n`, its length is `r − l + 1`.
+Subarray `a[l..r]` is a sub-array of `a`, it includes `al, al+1, ..., ar` for `1 <= l <= r <= n`, its length is `r − l + 1`.
 
 You’d like to determine the **median** of this set of `2k (k = r − l + 1)` values, which we will define here to be the `k-th` smallest value. For example: `median([1, 2, 3, 4]) = 2`.
 
@@ -245,9 +245,9 @@ You’d like to determine the **median** of this set of `2k (k = r − l + 1)` v
 
 The 1st line contains two positive integers `n (1 <= n <= 100000)` and `T (1 <= T <= 100000)` which is the number of testcase.
 
-The 2nd line contains `n` integers: `a1, a2, ...,an`. For each `ai`, `0 <= ai <= 1e9`.
+The 2nd line contains `n` integers: `a1, a2, ..., an`. For each `ai`, `0 <= ai <= 1e9`.
 
-The 3rd line contains `n` integers: `b1, b2, ...,bn`. For each `bi`, `0 <= bi <= 1e9`.
+The 3rd line contains `n` integers: `b1, b2, ..., bn`. For each `bi`, `0 <= bi <= 1e9`.
 
 Then `T` lines follow. Each line contains two integers `l` and `r` `(1 <= l <= r <= n)` for a test case.
 
