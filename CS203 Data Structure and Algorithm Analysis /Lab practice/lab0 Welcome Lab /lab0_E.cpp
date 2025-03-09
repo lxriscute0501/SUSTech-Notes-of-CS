@@ -1,5 +1,3 @@
-//分治，找符号数量表达式！
-#include <stdio.h>
 #include <iostream>
 using namespace std;
 
