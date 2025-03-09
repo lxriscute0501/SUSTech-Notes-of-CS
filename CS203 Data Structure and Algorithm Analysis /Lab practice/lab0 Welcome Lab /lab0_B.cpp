@@ -1,4 +1,3 @@
-//考虑到数据大小与数量，用Hash表
 #include <iostream>
 using namespace std;
 
@@ -10,7 +9,7 @@ int main()
     for (int i = 1; i <= n; i++)
     {
         cin >> s;
-        a[s] += 1; //Hash，可换成bool数组
+        a[s] += 1;
     }
     cin >> t;
     for (int i = 1; i <= t; i++)
