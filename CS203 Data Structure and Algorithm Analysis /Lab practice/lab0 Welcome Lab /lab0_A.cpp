@@ -1,4 +1,3 @@
-//数据量小，双重循环查找即可
 #include <iostream>
 using namespace std;
 
