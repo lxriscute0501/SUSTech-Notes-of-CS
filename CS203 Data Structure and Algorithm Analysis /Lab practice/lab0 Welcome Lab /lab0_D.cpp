@@ -19,7 +19,6 @@ int main()
             last = x;
         }
 
-        //最大子序和
         dp[1] = a[1];
         for (int i = 2; i < n; i++)
         {
