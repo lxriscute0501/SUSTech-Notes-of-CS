@@ -4,7 +4,6 @@ using namespace std;
 int n, w[10], s[10], b[10], z[10], x, y;
 string t;
 
-//判断是否能和牌
 bool panduan()
 {
     for (int i=1; i<=7; i++)
