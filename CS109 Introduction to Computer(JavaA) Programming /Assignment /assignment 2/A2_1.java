@@ -16,6 +16,7 @@ public class Main {
             b[i] = scanner.nextInt();
 
         m = scanner.nextInt();
+        
         int num = (a[m] == -1 ? 1 : 0) + (b[m] == -1 ? 1 : 0);
         System.out.println(num);
     }
