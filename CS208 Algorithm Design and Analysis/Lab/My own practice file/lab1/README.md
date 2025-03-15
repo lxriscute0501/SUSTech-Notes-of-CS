@@ -68,7 +68,7 @@ Move disk 1 from A to C
 
 **Find the number of ways a `2 * n` rectangle can be tiled with rectangular tiles of size `2 * 1`.**
 
-![image]([https://github.com/lxriscute0501/SUSTech-Notes-of-CS/blob/main/CS208%20Algorithm%20Design%20and%20Analysis/Lab/My%20own%20practice%20file/lab1/practice2_image.jpg])
+![image](https://github.com/lxriscute0501/SUSTech-Notes-of-CS/blob/main/CS208%20Algorithm%20Design%20and%20Analysis/Lab/My%20own%20practice%20file/lab1/practice2_image.jpg)
 
 ### Analysis
 
