@@ -114,7 +114,7 @@ We use `ios::sync_with_stdio(false)` and `cin.tie(nullptr)` to turn off synchron
 
 ### Requirement
 
-![WechatIMG610](media/17409734928007/WechatIMG610.jpg)
+![image](https://github.com/lxriscute0501/SUSTech-Notes-of-CS/blob/main/CS208%20Algorithm%20Design%20and%20Analysis/Lab%20materials%20%26%20practice/week2-3/practice2_image1.jpg)
 
 ### Construction
 
