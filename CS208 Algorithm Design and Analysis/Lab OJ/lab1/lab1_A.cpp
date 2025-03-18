@@ -59,6 +59,7 @@ file_system* search(const vector<string>& path, bool bo) {
 void echo(const vector<string>& paras) {
     string content;
     vector<string> path;
+    
     for (size_t i = 1; i < paras.size(); i++)
     {
         if (paras[i] == ">") {
@@ -68,16 +69,18 @@ void echo(const vector<string>& paras) {
             if (i + 1 < paras.size() and paras[i + 1] == ">") content += paras[i]; else content += paras[i] + " ";
         }
     }
+    
     file_system* temp = search(path, true);
     if (temp) {
         file_system* nfile = new file_system{path.back(), content, true};
         temp->children[path.back()] = nfile;
-    }
+    } else return;
 }
 
 void mkdir(const vector<string>& paras) {
     vector<string> path = split(paras[1]);
     file_system* cur = search(path, true);
+    
     if (cur) {
         file_system* nfolder = new file_system{path.back(), "", false};
         cur->children[path.back()] = nfolder;
@@ -91,6 +94,7 @@ void rm(const vector<string>& paras) {
     {
         if (paras[i] != "-rf") path = split(paras[i]);
     }
+    
     file_system* temp = search(path, true);
     if (temp) temp->children.erase(path.back()); else return;
 }
@@ -98,8 +102,10 @@ void rm(const vector<string>& paras) {
 void mv(const vector<string>& paras) {
     vector<string> srcpath = split(paras[1]);
     vector<string> dstpath = split(paras[2]);
+    
     file_system* dst = search(dstpath, false);
     file_system* src = search(srcpath, true);
+    
     if (dst and src) {
         dst->children[srcpath.back()] = src->children[srcpath.back()];
         src->children.erase(srcpath.back());
@@ -109,6 +115,7 @@ void mv(const vector<string>& paras) {
 void cat(const vector<string>& paras) {
     vector<string> path = split(paras[1]);
     file_system* cur = search(path, true);
+    
     if (cur and cur->children.find(path.back()) != cur->children.end() and cur->children[path.back()]->file) {
         cout << cur->children[path.back()]->content << endl;
     } else cout << "" << endl;
@@ -116,14 +123,13 @@ void cat(const vector<string>& paras) {
 
 void print(file_system* cur, const string& prefix) {
     if (!cur) return;
-    bool found = true;
-    if (ty == "f" and !cur->file) found = false;
-    if (ty == "d" and cur->file) found = false;
-    if (!n.empty() and cur->name != n) found = false;
-    if (found) fres.push_back(prefix);
-    for (auto& child : cur->children) {
-        print(child.second, prefix + "/" + child.first);
-    }
+    bool bo = true;
+    
+    if ((ty == "f" and !cur->file) or (ty == "d" and cur->file) or (!n.empty() and cur->name != n)) bo = false;
+    if (bo) fres.push_back(prefix);
+    
+    for (auto& child : cur->children)
+    print(child.second, prefix + "/" + child.first);
 }
 
 void find(const vector<string>& paras) {
