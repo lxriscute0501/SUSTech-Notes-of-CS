@@ -8,9 +8,9 @@ Score: A~J-10
 
 ### Description
 
-Alice has a bundle of sticks. She wants to select some sticks and split them into `k` rows.  
+Alice has a bundle of sticks. She wants to select some sticks and split them into $k$ rows.  
 
-For beauty, the difference between the lengths of all sticks in the same row shall not exceed `1` and each row has the same number of sticks. The length of each stick is a positive integer from `1` to `n`.      
+For beauty, the difference between the lengths of all sticks in the same row shall not exceed $1$ and each row has the same number of sticks. The length of each stick is a positive integer from $1$ to $n$.      
 
 For every possible length, you know the amount of stick with that length.      
 
@@ -18,15 +18,15 @@ Please calculate the maximum number of sticks Alice can select.
 
 ### Input
 
-The first line is a positive integer `T (1 <= T <= 10000)` which is the number of test cases.
+The first line is a positive integer $T (1 \leq T \leq 10^5)$ which is the number of test cases.
 
 For each test case:       
 
-The first line contains two integers `n (1 <= n <= 30000)` and `k (1 <= k <= 1e12)`, representing the number of different length of sticks and the number of rows the stick needs to be divided into, respectively.       
+The first line contains two integers $n (1 \leq n \leq 3*10^4)$ and $k (1 \leq k \leq 10^{12})$ , representing the number of different length of sticks and the number of rows the stick needs to be divided into, respectively.       
 
-The second line contains `n` integers `C1, C2, ...,Cn (0 <= Ci <= 1e12)`, representing the number of sticks in each length.    
+The second line contains $n$ integers $C_1, C_2, ...,C_n (0 \leq C_i \leq 10^{12})$ , representing the number of sticks in each length.    
 
-Ensure that the sum of `n` of all cases does not exceed `30000`.     
+Ensure that the sum of $n$ of all cases does not exceed $30000$ .     
 
 ### Output
 
@@ -58,7 +58,7 @@ For each case, output the maximum number of sticks Alice can select.
 
 ### Hint (sample explanation)
 
-1. The arrangement is [3, 3, 3, 3], [1, 2, 1, 1], [1, 1, 1, 1], [3, 3, 3, 3] (each list represents a row).
+1. The arrangement is $[3, 3, 3, 3]$ , $[1, 2, 1, 1]$ , $[1, 1, 1, 1]$ , $[3, 3, 3, 3]$ (each list represents a row).
 
 2. All the sticks can be arranged in the same row.
 
@@ -76,18 +76,18 @@ For each case, output the maximum number of sticks Alice can select.
 
 Satori, the bunny store owner, decided to offer a discount to whoever answered her problem:
 
-What's the number of different Max-heaps build on ``N`` different key values?
+What's the number of different Max-heaps build on $N$ different key values?
 
 Note that two heaps are considered different if and only if the two binary trees have different pre-order traversals.
 
 
 ### Input
 
-A single integer `N (1 <= N <= 1000)`.
+A single integer $N (1 \leq N \leq 1000)$ .
 
 ### Output
 
-Output a single integer indicating the number of different Max-heaps module `998244353`
+Output a single integer indicating the number of different Max-heaps module $998244353$ .
 
 > 998244353 is a prime number.
 
@@ -113,21 +113,21 @@ The original meaning of cache is a kind of high-speed memory whose access speed 
 Generally, it does not use DRAM technology as systems main memory, but uses expensive but faster SRAM technology.
 The setting of cache is one of the most important factors for all modern computer systems to achieve high performance.
 A hit means the queried item is already in cache before the query reaches while a miss means the item is not in cache and after the query it will be stored in cache. 
-The cache have a cache size `C`. When a cache store items more than `C`, it will adopt Least-Recently-Used (LRU) algorithm to replace item stored in cache.
-Here we simplify the concept, a cache can store at most `k` items. When the cache is full and a new item need to store in cache, it will replace the item that is least recently used.
+The cache have a cache size $C$. When a cache store items more than $C$, it will adopt Least-Recently-Used (LRU) algorithm to replace item stored in cache.
+Here we simplify the concept, a cache can store at most $k$ items. When the cache is full and a new item need to store in cache, it will replace the item that is least recently used.
 
 QR code, full name quick response code, is a super popular coding method on mobile devices in recent years. 
 It can store more information than the traditional bar code barcode, and can also represent more data types. 
-To simplify the problem, We assume QR code is a `16 * 16` matrix contains only `0` and `1`.
+To simplify the problem, We assume QR code is a $16 * 16$ matrix contains only $0$ and $1$.
 
-Now the question is coming. Dateri is going to deal with `n` QR codes and he have a cache size `k`. For each query QR code, he wants to know whether the query is hit or miss.
+Now the question is coming. Dateri is going to deal with $n$ QR codes and he have a cache size $k$. For each query QR code, he wants to know whether the query is hit or miss.
 
 
 ### Input
 
-First line contains two integer `n (1 < n <= 1000)` and `k (1 <= k <= n)`.
+First line contains two integer $n (1 < n \leq 1000)$ and $k (1 \leq k \leq n)$.
 
-Continue with `n` query, each query contains a `16 * 16` matrix which consist of `0` and `1`.
+Continue with $n$ query, each query contains a $16 * 16$ matrix which consist of $0$ and $1$.
 
 ### Output
 
@@ -271,17 +271,17 @@ Recently, he decides to invest in stocks to try his luck.
 Unfortunately, due to the miserable state of the economy and lack of knowledge and experience, he suffered a great loss of money. 
 He has no choice but to ask LowbieH for help. 
 
-LowbieH offers him a predictor which can forecast the stock index of the upcoming `n` days. 
+LowbieH offers him a predictor which can forecast the stock index of the upcoming $n$ days. 
 Dateri is very excited and can't wait to make money. 
-He wants to know the minimum days that he needs to wait to get a rise in the index if making a buy-in on the `k-th` day.
+He wants to know the minimum days that he needs to wait to get a rise in the index if making a buy-in on the $k$ th day.
 
 ### Input
 
-The first line is an integer `T (1 <= T <= 12)`, meaning the number of the test cases.
+The first line is an integer $T (1 \leq T \leq 12)$, meaning the number of the test cases.
 
-For each test case, an integer `n (1 <= n <= 2e5)` denotes the number of the forecasted upcoming days, followed by `n` stock indexes for each day: `index1, ..., indexn (1 <= indexi <= 1e9, 1 <= i <= n)`.
+For each test case, an integer $n (1 \leq n \leq 2*10^5)$ denotes the number of the forecasted upcoming days, followed by $n$ stock indexes for each day: $index_1, ..., index_n (1 \leq index_i \leq 10^9, 1 \leq i \leq n)$.
 
-The next line contains an integer `q (1 <= q <= 2e5)` denoting the number of the queries. For each query, there's an integer `k`, which means that Dateri will make a buy-in on the `k-th` day.
+The next line contains an integer $q (1 \leq q \leq 2*10^5)$ denoting the number of the queries. For each query, there's an integer $k$, which means that Dateri will make a buy-in on the $k$-th day.
 
 
 ### Output
