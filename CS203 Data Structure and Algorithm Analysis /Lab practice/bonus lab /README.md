@@ -286,7 +286,7 @@ The next line contains an integer $q (1 \leq q \leq 2*10^5)$ denoting the number
 
 ### Output
 
-Print the answer of each query in `q` lines. If Dateri can't get a rise within the upcoming `n` days, print `−1`.
+Print the answer of each query in $q$ lines. If Dateri can't get a rise within the upcoming $n$ days, print $−1$.
 
 ### Sample Input
 ```
@@ -310,7 +310,7 @@ Print the answer of each query in `q` lines. If Dateri can't get a rise within t
 
 "rise" should be understanded as "strictly bigger than".
 
-Huge input and output. You are recommended to use fast I/O.
+Huge input and output. You are recommended to use **fast I/O**.
 
 <br>
 
@@ -320,12 +320,12 @@ Huge input and output. You are recommended to use fast I/O.
 
 In this problem, you need to:
 
-1. Implement a Binary Tree **using a linked list** (as explained during the lecture) to encode a mathematical expression with binary operators (`+, -, *, /`) provided in input in prefixnotation i.e. functional programming notation.
+1. Implement a Binary Tree **using a linked list** (as explained during the lecture) to encode a mathematical expression with binary operators (+, -, *, /) provided in input in prefixnotation i.e. functional programming notation.
 You should use a stack to keep track of the pointers of the nodes that you will need later to fill in their right child.
 
 2. Implement the procedures **INORDER, PREORDER and POSTORDER** and print the respective outputs when applied to the resulting tree form Step 1.
 
-Example input: `-(+(a,*(b,c)),/(d,e))` which leads to the tree given in the lecture slides
+Example input: $-(+(a,*(b,c)),/(d,e))$ which leads to the tree given in the lecture slides.
 
 **VERY IMPORTANT HINTS:**
 
@@ -349,17 +349,17 @@ Example input: `-(+(a,*(b,c)),/(d,e))` which leads to the tree given in the lect
 2. You should implement three methods for the three procedures respectively, based on the binary tree you have built with a linked list.
        **DO NOT** simulate the procedures on arrays instead of linked lists, otherwise you will get a **WRONG ANSWER after the deadline** even if you have passed this problem.
    
-3. Actually, you can safely ignore all `'('`, `')'` and `','`  in the input file, since the prefix notation (also known as Polish notation) is ambiguity-free without brackets.
+3. Actually, you can safely ignore all '(', ')' and ',' in the input file, since the prefix notation (also known as Polish notation) is ambiguity-free without brackets.
 
 ### Input
 
 A prefix notation string with commas and brackets.
 
-All the operands are single lowercase letters, and all the operators are one of `'+', '-', '*', '/'`.
+All the operands are single lowercase letters, and all the operators are one of '+', '-', '*', '/'.
 
 The prefix notation string is always legal (i.e. in correct form).
 
-`1 <= string.length <= 20000`
+$1 \leq string.length \leq 20000$
 
 ### Output
 
@@ -383,17 +383,17 @@ abc*+de/-
 
 ### Description
 
-Here are `t (1 <= t <= 1e5)` tests, each test contains two integers `a (0 <= a <= 1e9)` and `b (0 <= b <= 1e9)`, you should find the Mex of the sequence `a⊕0, a⊕1, ...,a⊕b`, here `⊕` mean **the bitwise xor** operation. 
+Here are $t (1 \leq t \leq 10^5)$ tests, each test contains two integers $a (0 \leq a \leq 10^9)$ and $b (0 \leq b \leq 10^9)$, you should find the Mex of the sequence $a \bigoplus 0, a \bigoplus 1, ..., a \bigoplus b$, here $\bigoplus$ mean **the bitwise xor** operation. 
 
 The Mex of the sequence of non-negative integers is the smallest non-negative integer that doesn't appear in this sequence.
-For example, `Mex(1, 2, 3) = 0, Mex(0, 1, 2, 4, 5) = 3`.
+For example, $Mex(1, 2, 3) = 0$, $Mex(0, 1, 2, 4, 5) = 3$.
 
 
 ### Input
 
-The first line contains a single integer `t (1 <= t <= 1e5)`, indicates the number of test cases.    
+The first line contains a single integer $t (1 \leq t \leq 10^5)$, indicates the number of test cases.    
 
-The first and only line of each test case contains two integers `a` and `b` `(0 <= a, b <= 1e9)`.   
+The first and only line of each test case contains two integers $a$ and $b$ $(0 \leq a, b \leq 10^9)$.   
 
 ### Output
 
@@ -420,7 +420,7 @@ For each test case, print a line contains a single integer  — the answer to th
 
 ### Description
 
-Give you `n` linklists, each with`m` numbers inside. The chains index are numbered `0` to `n-1`, and the nodes on the initial `i-th` chain are numbered `(i*m), (i*m+1), ......,(i*m+(m-1))`
+Give you $n$ linklists, each with $m$ numbers inside. The chains index are numbered $0$ to $n - 1$, and the nodes on the initial $i$-th chain are numbered $(m*i)$ $(i*m+1)$, $(i*m+(m-1))$
 
 After that you are given `k` operations, each operation will select two node numbers `a, b`. Disconnect the right side of `a` and the left side of `b` on the current linklist into four parts, then join `a` and `b` together and join the remaining two disconnected parts together.
 
