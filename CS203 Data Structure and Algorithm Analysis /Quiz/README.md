@@ -14,7 +14,7 @@ Fortunately, Problem 2 & 3 are both algorithm problems and more informative. Her
 
 > Same as **LeetCode 189**, just change "rotate" to "exchange"
 
-Given an integer array ``nums``, rotate the array to the right by ``k`` steps, where ``k`` is non-negative.    
+Given an integer array $nums$, rotate the array to the right by $k$ steps, where $k$ is non-negative.    
 ```
 Example: 
 Input: nums = [1, 2, 3, 4, 5, 6, 7], k = 3
@@ -27,7 +27,7 @@ Output: [5, 6, 7, 1, 2, 3, 4]
 
 > Same as **LeetCode 215**
 
-Given an integer array ``nums`` and an integer ``k``, return the ``k``th largest element in the array.
+Given an integer array $nums$ and an integer $k$, return the $k$ th largest element in the array.
 
 <br>
 
@@ -38,7 +38,7 @@ Given an integer array ``nums`` and an integer ``k``, return the ``k``th largest
 
 ### Problem 1   Heap Building Time Complexity Proof    [20 points]
 
-The time complexity of turn sized-n array ``A`` into a binary heap on ``S`` via root-fix operator on dynamic array is ``O(n)``, where ``A`` stores the values in set ``S``.
+The time complexity of turn sized-n array $A$ into a binary heap on $S$ via root-fix operator on dynamic array is $O(n)$ , where $A$ stores the values in set $S$.
 
 <br>
 
@@ -52,7 +52,7 @@ Given (character, frequency) pairs as following:
 
 1. Show the detail steps of building its Huffman tree, i.e., draw the Huffman tree building process step by step.
 2. Write down the corresponding scheme of the Huffman tree you obtained in (1), you only need to draw a table, which contains two columns, the left is the character, the right is its corresponding Huffman coding.
-3. Write down the corresponding codes of string ``HONESTY``.
+3. Write down the corresponding codes of string $HONESTY$ .
 4. Please proof that Huffman encoding is the optimum prefix code, i.e., the space cost is minimized.
 
 <br>
