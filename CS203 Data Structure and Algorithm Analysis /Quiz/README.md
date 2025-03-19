@@ -27,7 +27,7 @@ Output: [5, 6, 7, 1, 2, 3, 4]
 
 > Same as **LeetCode 215**
 
-Given an integer array $nums$ and an integer $k$, return the $k$ th largest element in the array.
+Given an integer array $nums$ and an integer $k$, return the $k$-th largest element in the array.
 
 <br>
 
