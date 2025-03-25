@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab6E5 {
+public class Lab5E5 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int T = in.nextInt();    //get the number of test cases
