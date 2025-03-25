@@ -1,6 +1,5 @@
 
-//test input: 2.5 5.5 3.4 6.4 7.7 2.2 8.9 0.2
-public class Lab5P1 {
+public class Lab4P1 {
 
 	public static void main(String[] args) {
 		java.util.Scanner input = new java.util.Scanner(System.in);
