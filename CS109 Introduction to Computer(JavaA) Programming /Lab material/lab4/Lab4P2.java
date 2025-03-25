@@ -1,8 +1,6 @@
-
-
 import java.util.Scanner;
-//test input: 88.3 99 45 78 67.5 98.4 23.5 65.5 82 85.4
-public class Lab5P2 {
+
+public class Lab4P2 {
 
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);
