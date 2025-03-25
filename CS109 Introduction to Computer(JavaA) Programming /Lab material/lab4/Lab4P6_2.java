@@ -1,7 +1,7 @@
 // test input:2 3 5 6 9 10 12 13 15 16
 import java.util.Scanner;
 
-public class Lab5P6_2 {
+public class Lab4P6_2 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in); // Create a Scanner
