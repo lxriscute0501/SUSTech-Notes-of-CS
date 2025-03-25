@@ -6,9 +6,10 @@ public class Main {
         int n = ss.length(), p = 1, sum = 0;
         for (int i = 0; i < n; i++)
         {
-            if (i * 2 + 1 == n) continue;
-            sum += (ss.charAt(i) - '0') * p;
-            p *= 10;
+            if (i * 2 + 1 != n) {
+                sum += (ss.charAt(i) - '0') * p;
+                p *= 10;
+            }
         }
         return sum;
     }
@@ -17,8 +18,7 @@ public class Main {
         int n = ss.length(), sum = 0;
         for (int i = 0; i < n; i++)
         {
-            if (i * 2 + 1 == n) continue;
-            sum += ss.charAt(i);
+            if (i * 2 + 1 != n) sum += ss.charAt(i);
         }
         return sum;
     }
