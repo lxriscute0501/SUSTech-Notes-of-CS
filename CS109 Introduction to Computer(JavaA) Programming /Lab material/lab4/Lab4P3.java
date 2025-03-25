@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab5P3 {
+public class Lab4P3 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         //Enter the length of array
