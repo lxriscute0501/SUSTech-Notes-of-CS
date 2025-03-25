@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab6E3{
+public class Lab5E3{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter the number of subjects: ");
