@@ -1,7 +1,7 @@
 // test input:22 33 55 34 99 87 45 34 23 78 45 33 11 23 87 34 76 0
 import java.util.Scanner;
 
-public class Lab5P4 {
+public class Lab4P4 {
 	/** Main Method */
 	public static void main(String[] args) {
 		int[] counts = new int[100]; // Counts the occurrences of numbers
