@@ -11,7 +11,7 @@
 ### Description
 
 Consider the directed acyclic graph ``G`` in Figure 3.10. How many topological orderings does it have?
-![chapter3_exercise1](media/17423098121210/chapter3_exercise1.jpg)
+![chapter3_exercise1](https://github.com/lxriscute0501/SUSTech-Notes-of-CS/blob/main/CS208%20Algorithm%20Design%20and%20Analysis/Theory%20assignment%20%26%20my%20own%20answer/image/chapter3_exercise1.jpg)
 
 ### Analysis
 
