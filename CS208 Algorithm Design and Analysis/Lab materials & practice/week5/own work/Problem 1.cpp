@@ -19,7 +19,8 @@ int main()
         g[u].push_back(v);
         in[v] ++;
     }
-    
+
+    //min-heap
     priority_queue<int, vector<int>, greater<int>> pq;
     
     for (int i = 1; i <= n; i++)
