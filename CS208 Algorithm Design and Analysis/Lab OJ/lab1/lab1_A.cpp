@@ -47,6 +47,7 @@ file_system* search(const vector<string>& path, bool bo) {
             }
             continue;
         }
+        
         if (temp->children.end() != temp->children.find(path[i])) {
             par.push(temp);
             temp = temp->children[path[i]];
