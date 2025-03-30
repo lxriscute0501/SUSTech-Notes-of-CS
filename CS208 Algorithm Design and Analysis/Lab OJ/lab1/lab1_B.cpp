@@ -29,6 +29,7 @@ long long bfs(int n, int start, int stop) {
 
     for (int i = 1; i <= n; i++)
     if (i != stop and visited[i]) ans ++;
+    
     return ans;
 }
 
