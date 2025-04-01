@@ -40,11 +40,15 @@ public class Main {
             va[x][y] = false;
         }
 
-        for (int i = 0; i < n * m; i++)
+        int pos = 0;
+        while (pos < n * m)
         {
             int t = 0;
-            while (t < sold.length() && i + t < ans.length() && ans.charAt(i + t) == sold.charAt(t)) t ++;
-            if (t == sold.length()) ans = ans.substring(0, i) + snew + ans.substring(i + t);
+            while (t < sold.length() && pos + t < ans.length() && ans.charAt(pos + t) == sold.charAt(t)) t ++;
+            if (t == sold.length()) {
+                ans = ans.substring(0, pos) + snew + ans.substring(pos + t);
+                pos += t;
+            } else pos ++;
         }
 
         x = 0; y = 0; dir = 0;
