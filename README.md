@@ -22,7 +22,7 @@ Because the contributor, lxr, major in **Mathematics**, it's impossible for me t
 
 | Course | Lecture Slide | Lab Material | Lab Assignment | Theory Assignment | Quiz | Project |
 | :-------- | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
-| [CS109 JavaA ](./CS109%20Introduction%20to%20Computer(JavaA)%20Programming%20) | ✅(24 spring) | ✅(24 spring) | Updating... | ❌ | Updating... | Updating... | 
+| [CS109 JavaA ](./CS109%20Introduction%20to%20Computer(JavaA)%20Programming%20) | ✅ | ✅ | Updating... | ❌ | Updating... | Updating... | 
 | [CS112 Python ](./CS112%20Introduction%20to%20Python%20Programming%20)  | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [CS201 Discrete Maths ](./CS201%20Discrete%20Mathematics%20) | Updating... | ❌ | ❌ | Updating... | Updating... | ✅(optional) |
 | [CS203 DSAA ](./CS203%20Data%20Structure%20and%20Algorithm%20Analysis%20) | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |
