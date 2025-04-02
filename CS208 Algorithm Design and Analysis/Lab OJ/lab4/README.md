@@ -161,11 +161,11 @@ He has tasked you with optimizing the delivery network under the **following con
 
 ## Limitations
 
-For 20\% cases，$n \leq 10$ , $ m \leq 20$
+For 20\% cases, $n \leq 10$ , $m \leq 20$
 
-For 60\% cases，$n \leq 10^3$ , $m \leq 5 \times 10^4$
+For 60\% cases, $n \leq 10^3$ , $m \leq 5 \times 10^4$
 
-For 100\% cases，$n \leq 5 \times 10^4$ , $m \leq 5 \times 10^5$
+For 100\% cases, $n \leq 5 \times 10^4$ , $m \leq 5 \times 10^5$
 
 It is guaranteed that $1 \leq u_i, v_i \leq n$ and $1 \leq w_i \leq 10^9$.
 
