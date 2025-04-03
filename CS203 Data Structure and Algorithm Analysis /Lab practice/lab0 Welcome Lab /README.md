@@ -21,7 +21,7 @@ The 4th line contains ``T`` integers ``b1, b2, ..., bT``. For each ``bi``, ``0 <
 
 ### Output
 
-For each element in ``B``, print **"yes"** (in a single line, without quotes) if it is in ··A··, otherwise print **"no"**
+For each element in ``B``, print **"yes"** (in a single line, without quotes) if it is in ``A``, otherwise print **"no"**
 
 ### Sample Input
 ```
