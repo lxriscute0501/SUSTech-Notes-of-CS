@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Because the contributor, lxr, major in **Mathematics**, it's impossible for me to study all the required courses of Computer Science major. However, I will do my best to make this repository more complete. If you have any course meterials which is not included here, you can just send me an email via `lixuanran798@gmail.com` or  `12312110@mail.sustech.edu.cn` directly. Much appreciation for any contribution!
+Because the contributor, lxr, major in **Mathematics**, it's impossible for me to study all the required courses of Computer Science major. However, I will do my best to make this repository more complete. If you have any course meterials which is not included here, you can just send me an email via `lixuanran798@gmail.com` directly. Much appreciation for any contribution!
 
 ## Course List
 
