@@ -127,9 +127,18 @@ Output the final synthesized matrix $C^T$, which has a size of $p * n$, meaning 
 Your goal is to find all the damaged runes in the magical material and replace them with the correct restoration runes, making the material whole again! The material is stored as an $n * m$ character matrix, where each position contains a character. You need to traverse the entire matrix in a **clockwise spiral order** to find all damaged runes and replace them with the correct ones. The magic restoration rules are as follows:
 
 1. **Read the Material:**
-   a. Read an $n * m$ character matrix $M$, representing the magical material that needs repair.
-   b. Read two strings `old` and `new`:
+   1. Read an $n * m$ character matrix $M$, representing the magical material that needs repair.
+   2. Read two strings `old` and `new`:
     - `old` represents the damaged rune in the material.
     - `new` represents the correct restored rune.
     - `old` and `new` have the same length.
 
+2. **Spiral Traversal of the Material:**
+   1. Start from the top-left corner `(0,0)`, and traverse the entire matrix in a **clockwise spiral order**:
+    - First, traverse from left to right along the first row.
+    - Then, traverse from top to bottom along the last column.
+    - Next, traverse from right to left along the last row.
+    - Then, traverse from bottom to top along the first column.
+    - Continue narrowing the range until the entire matrix is traversed.
+
+![image]()
