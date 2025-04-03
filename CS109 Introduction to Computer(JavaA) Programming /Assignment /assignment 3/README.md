@@ -140,5 +140,11 @@ Your goal is to find all the damaged runes in the magical material and replace t
     - Next, traverse from right to left along the last row.
     - Then, traverse from bottom to top along the first column.
     - Continue narrowing the range until the entire matrix is traversed.
+   2. Whenever `old` is found, replace it with `new`, then continue searching for the next occurrence until all matches are repaired.
 
-![image]()
+3. After restoration is complete, output the repaired material $M'$.
+
+![image](https://github.com/lxriscute0501/SUSTech-Notes-of-CS/blob/main/CS109%20Introduction%20to%20Computer(JavaA)%20Programming%20/Assignment%20/assignment%203/image/temp-Imagejc-JH10.avif)
+
+
+
