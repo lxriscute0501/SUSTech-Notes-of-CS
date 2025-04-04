@@ -146,5 +146,79 @@ Your goal is to find all the damaged runes in the magical material and replace t
 
 ![image](https://github.com/lxriscute0501/SUSTech-Notes-of-CS/blob/main/CS109%20Introduction%20to%20Computer(JavaA)%20Programming%20/Assignment%20/assignment%203/image/temp-Imagejc-JH10.avif)
 
+**Notes:**
+- `old` may not appear in $M$, or it may appear multiple times.
+- If `old` is longer than the entire matrix, no replacement is needed.
+- Letter case is **case-sensitive**, meaning `a` and `A` are considered different characters.
+- Once replaced, a position will not be visited again, and it will not affect subsequent traversals.
 
+Pick up your magic wand (keyboard), write your Java spell, and complete this Basic Restoration Spell challenge!
+
+### Input
+
+The first line contains two integers $n$ and $m$, representing the size of the material matrix. That is, $n$ rows and $m$ columns.
+
+The next $n$ lines each contain $m$ characters, representing the material matrix $M$.
+
+The last two lines contain two strings `old` and `new`, representing the rune to be repaired and its restored version.
+
+#### Constraints
+
+- $1 \leq n, m \leq 100$
+- `old` and `new` have the same length, and their length does not exceed 10,000.
+- The material matrix, `old`, and `new` contain only uppercase and lowercase letters or digits.
+
+### Output
+
+Output the repaired material matrix $M'$.
+
+**Note:** The matrix output should be in row order, with elements separated by spaces. Please use nested loops to output the matrix, and **do not use** `Arrays.toString(matrix)` or `System.out.println(matrix)`.
+
+### Sample 1
+
+#### Sample Input
+```
+4 4
+a b b d
+d h g h
+i h d l
+m H D p
+dh
+xy
+```
+
+#### Sample Output
+```
+a b b x
+x y g y
+i y x l
+m H D p
+```
+
+#### Explanation
+
+The visit order is `a b b d h l p D H m i d h g d h`. Three occurrences of `dh` are found and replaced with `xy`. Since `DH` is different from `dh`, it is not replaced.
+
+### Sample 2
+
+#### Sample Input
+```
+3 3
+a b c
+d e f
+g h i
+ef
+xy
+```
+
+#### Sample Output
+```
+a b c
+d e f
+g h i
+```
+
+#### Explanation
+
+The visit order is `a b c f i h g d e`. `ef` does not appear in the matrix, so no replacement is needed.
 
