@@ -29,7 +29,7 @@ Because the contributor, lxr, major in **Mathematics**, it's impossible for me t
 | [CS202 Organization](./CS202%20Computer%20Organization) | ✅ | ✅ | | ✅ | | |
 | [CS203 DSAA ](./CS203%20Data%20Structure%20and%20Algorithm%20Analysis%20) | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |
 | [CS207 DL ](./CS207%20Digital%20Logic%20) | ✅ | ✅ | ✅ | ✅ | ✅(lab, on BB) | ✅ |
-| [CS208 ADA ](./CS208%20Algorithm%20Design%20and%20Analysis%20) | Updating... | Updating... | Updating... | Updating... | Updating... | ❌ |
+| [CS208 ADA ](./CS208%20Algorithm%20Design%20and%20Analysis%20) | ✅ | ✅ | ✅ | ✅ | Updating... | ❌ |
 | [CS307 Database ](./CS307%20Principles%20of%20Database%20Systems%20) | ✅ | ✅ | ✅ | | | ✅ |
 
 >[!warning]
