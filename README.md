@@ -23,13 +23,13 @@ Because the contributor, lxr, major in **Mathematics**, it's impossible for me t
 
 | Course | Lecture Slide | Lab Material | Lab Assignment | Theory Assignment | Quiz | Project |
 | :-------- | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
-| [CS109 JavaA ](./CS109%20Introduction%20to%20Computer(JavaA)%20Programming%20) | ✅ | ✅ | Updating... | ❌ | Updating... | Updating... | 
+| [CS109 JavaA ](./CS109%20Introduction%20to%20Computer(JavaA)%20Programming%20) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | 
 | [CS112 Python ](./CS112%20Introduction%20to%20Python%20Programming%20)  | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
-| [CS201 Discrete Maths ](./CS201%20Discrete%20Mathematics%20) | ✅ | ❌ | ❌ | ✅ | Updating... | ✅(optional) |
+| [CS201 Discrete Maths ](./CS201%20Discrete%20Mathematics%20) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅(optional) |
 | [CS202 Organization](./CS202%20Computer%20Organization) | ✅ | ✅ | | ✅ | | |
 | [CS203 DSAA ](./CS203%20Data%20Structure%20and%20Algorithm%20Analysis%20) | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |
 | [CS207 DL ](./CS207%20Digital%20Logic%20) | ✅ | ✅ | ✅ | ✅ | ✅(lab, on BB) | ✅ |
-| [CS208 ADA ](./CS208%20Algorithm%20Design%20and%20Analysis%20) | ✅ | ✅ | ✅ | ✅ | Updating... | ❌ |
+| [CS208 ADA ](./CS208%20Algorithm%20Design%20and%20Analysis%20) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [CS307 Database ](./CS307%20Principles%20of%20Database%20Systems%20) | ✅ | ✅ | ✅ | | | ✅ |
 
 >[!warning]
@@ -37,7 +37,7 @@ Because the contributor, lxr, major in **Mathematics**, it's impossible for me t
 
 ## Conclusion
 
-As a normal SUSTech student who has a middle GPA, lxr can not make sure that every program is 100% correct:( So if you find any problem (it can be some details in code, illogical analysis, or even a wrong grammar), just contact me or contribute to this repository directly. Wish this could help you, especially who are not in CS major but want to take some CS courses as optional courses!
+As a normal SUSTech student, lxr can not make sure that every program is 100% correct:( So if you find any problem (it can be some details in code, illogical analysis, or even a wrong grammar), just contact me or contribute to this repository directly. Wish this could help you, especially who are not in CS major but want to take some CS courses as optional courses!
 
 
 
