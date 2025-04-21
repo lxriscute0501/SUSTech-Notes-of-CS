@@ -498,19 +498,19 @@ The value should be accurated to exactly **2** decimal places.
 
 There are two kinds of pearls: black and white. When a black pearl is the left of a white pearl and they are adjacent to each other, then they will disappear. 
 
-Now, there are `n` strings of pearls, each string with `ai` white pearls on the left and `bi` black pearls on the right. Calculate the minimum number of the rest pearls when connecting these `n` strings.
+Now, there are $n$ strings of pearls, each string with $a_i$ white pearls on the left and $b_i$ black pearls on the right. Calculate the minimum number of the rest pearls when connecting these $n$ strings.
 
 ### Input
 
-The first line contains an integer `T`, indicating the number of test cases. 
+The first line contains an integer $T$, indicating the number of test cases. 
 
 For each test case:
 
-The first line contains an integer `n (1 <= n <= 1e6)`, indicating the number of the string of beads.
+The first line contains an integer $n (1 \leq n \leq 10^6)$, indicating the number of the string of beads.
 
-Each of the next `n` lines contains two integers `ai, bi (ai >= 0, bi >= 0, 1 <= ai + bi  <= 10,000).
+Each of the next $n$ lines contains two integers $a_i, b_i (a_i \geq 0, b_i \geq 0, 1 \leq a_i + b_i  \leq 10,000)$.
 
-It is guaranteed that `∑(ai + bi) <= 500,000`.   
+It is guaranteed that $\sum (a_i + b_i) \leq 500,000$.   
 
 ### Output
 
@@ -541,23 +541,23 @@ Output one integer, indicating the minimum number of the rest pearls.
 
 ### Description
 
-Van is a courier who needs to deliver `n` parcels numbered from `1` to `n`. When a parcel is delivered for the `i-th` time, we define its delivery priority to be `i`.
+Van is a courier who needs to deliver $n$ parcels numbered from $1$ to $n$. When a parcel is delivered for the $i$-th time, we define its delivery priority to be $i$.
 
 There are two restrictions on the order of delivery of parcels:     
-A parcel numbered `i` has a delivery priority less than `ki`;      
-There is some restriction `(i, j)` that the `i-th` parcel must be delivered earlier than the `j-th` parcel.    
+A parcel numbered $i$ has a delivery priority less than $k_i$;      
+There is some restriction $(i, j)$ that the $i$-th parcel must be delivered earlier than the $j$-th parcel.    
 
 Please help us to calculate the minimum delivery priority of each parcel among all possible options.
 
 ### Input
 
-The first line contains two positive integers `n (n <= 2000)` and `m (m <= 10000)`, where `n` represents the number of packages, and `m` represents the number of restrictions of the second type.
+The first line contains two positive integers $n (n \leq 2000)$ and $m (m \leq 10000)$, where $n$ represents the number of packages, and $m$ represents the number of restrictions of the second type.
 
-The second line contains `n` positive integers `k1, k2, ...,kn` and the next `m` lines, each line contains two positive integers `a` and `b`, representing a pair of relative take-off order restrictions `(a, b)`, where `a, b (1 <= a, b <= n)`, which means that package `a` must start before package `b`.
+The second line contains $n$ positive integers $k_1, k_2, ..., k_n$ and the next $m$ lines, each line contains two positive integers $a$ and $b$, representing a pair of relative take-off order restrictions $(a, b)$, where $a, b (1 \leq a, b \leq n)$, which means that package $a$ must start before package $b$.
 
 ### Output
 
-Contains `n` integers `t1, t2, ...,tn` represents the smallest possible starting sequence number for package `i`, and two adjacent integers are separated by spaces.
+Contains $n$ integers $t_1, t_2, ..., t_n$ represents the smallest possible starting sequence number for package $i$, and two adjacent integers are separated by spaces.
 
 
 ### Sample Input
