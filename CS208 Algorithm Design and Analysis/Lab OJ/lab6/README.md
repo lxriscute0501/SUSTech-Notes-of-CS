@@ -46,7 +46,7 @@ Given a tree where each edge has a weight, and a target path sum $k$, your task 
 
 ## Input Format:
 
-* The first line contains two integers n and kk, representing the number of nodes and the target path sum.
+* The first line contains two integers $n$ and $k$, representing the number of nodes and the target path sum.
 
 * The next $n−1$ lines each contain three integers $u, v, $ and $w,$ indicating that there is an edge between node $u$ and node $v $ with weight $w$.
 
@@ -77,8 +77,8 @@ Given a tree where each edge has a weight, and a target path sum $k$, your task 
 Yes
 ```
 
-* We are looking for paths with a sum equal to 7.
-* In this tree, there exists one path (4 → 2 → 5) with a total weight of 7.
+* We are looking for paths with a sum equal to $7$.
+* In this tree, there exists one path ($4 \to 2 \to 5$) with a total weight of $7$.
 
 
 ## Note:
