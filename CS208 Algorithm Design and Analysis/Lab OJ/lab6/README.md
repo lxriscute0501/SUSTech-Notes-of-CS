@@ -8,8 +8,7 @@ One day, while studying in the library, Xiaoming and Xiaohong were discussing an
 
 They decided to measure this misalignment using a concept called an "i**nversion pair**":
 
-For a list of scores, if there exists a pair of courses 
-$i<j$, but the score for course $i$ is **greater** than the score for course $j$, i.e., $a_i > a_j$, then $i, j$ is considered an inversion pair.
+For a list of scores, if there exists a pair of courses $i<j$, but the score for course $i$ is **greater** than the score for course $j$, i.e., $a_i > a_j$, then $i, j$ is considered an inversion pair.
 
 Xiaoming wants to count how many inversion pairs are present in his grade list, to evaluate how poorly his study plan matched his results.
 
