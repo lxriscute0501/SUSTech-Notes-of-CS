@@ -1,4 +1,10 @@
-# <div style="text-align: center;">南科大计算机系课程资料</div>
+<div align=center>
+
+# 南科大计算机系课程资料
+
+中文 | [English](https://github.com/lxriscute0501/SUSTech-Notes-of-CS/edit/main/README_en.md)
+
+</div>
 
 ## 简介
 
