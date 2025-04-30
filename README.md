@@ -2,7 +2,7 @@
 
 # 南科大计算机系课程资料
 
-中文 | [English](https://github.com/lxriscute0501/SUSTech-Notes-of-CS/main/README_en.md)
+中文 | [English](https://github.com/lxriscute0501/SUSTech-Notes-of-CS/blob/main/README_en.md)
 
 </div>
 
