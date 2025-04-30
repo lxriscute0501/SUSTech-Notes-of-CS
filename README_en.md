@@ -1,4 +1,10 @@
-# <div style="text-align: center;">SUSTech Notes of CS</div>
+<div align=center>
+
+# SUSTech Notes of CS
+
+[中文](https://github.com/lxriscute0501/SUSTech-Notes-of-CS/main/README.md) | English
+
+</div>
 
 ## Introduction
 
