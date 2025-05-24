@@ -1,4 +1,4 @@
-# Lab 10 A. Cookie Optimization at SUSTech
+# Lab10 A. Cookie Optimization at SUSTech
 
 ## Background
 
@@ -97,7 +97,7 @@ There is no purchasing plan for smy that can both spend all the money exactly an
 <br>
 
 
-# Lab 10B: Fan Dance Combinations
+# Lab10 B: Fan Dance Combinations
 
 ## Problem Description
 
