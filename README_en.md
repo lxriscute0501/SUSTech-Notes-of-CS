@@ -2,7 +2,7 @@
 
 # SUSTech Notes of CS
 
-[中文](https://github.com/lxriscute0501/SUSTech-Notes-of-CS/blob/main/README.md) | English
+[:book:] Language: [中文](https://github.com/lxriscute0501/SUSTech-Notes-of-CS/blob/main/README.md) | English
 
 </div>
 
@@ -40,7 +40,7 @@ My course selection plan is rather chaotic. For students majoring in engineering
 | [CS208 ADA ](./CS208%20Algorithm%20Design%20and%20Analysis%20) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [CS307 Database ](./CS307%20Principles%20of%20Database%20Systems%20) | ✅ | ✅ | ✅ | | | ✅ |
 
-## Repository Characteristics
+## PS
 
 For all the LabOJ sections, we have made every effort to supplement the problem descriptions. Thus, even if the problems change with the years, the codes will still retain their reference value and achieve the effect of self-study!
 
@@ -53,6 +53,6 @@ For all the LabOJ sections, we have made every effort to supplement the problem 
 
 It can be said that the professional courses in the Computer Science Department are almost all courses that can be completed with **full marks except for exams**. However, the real ability is directly proportional to the time spent. Just like the course projects, their proportion in the overall grade is **extremely low** (compared to the time spent), but completing a project with a complete function and clear logic is of great benefit to the understanding of principles and working ability. 
 
-As an ordinary student at SUSTech, I cannot guarantee that every program is 100% correct (there are a few questions that were fixed after the OJ evaluation). 😐 So if you find any issues, ranging from the code logic to spelling mistakes of words, you can directly raise them in the **Issues** section. If there are any supplementary courses or additional materials for existing courses, please feel free to contact me via `lixuanran798@gmail.com`. Thank you for your contribution! 🙏
+As an ordinary student at SUSTech, I cannot guarantee that every program is 100% correct (there are a few questions that were fixed after the OJ evaluation). 😐 So if you find any issues, ranging from the code logic to spelling mistakes of words, you can directly raise them in the **Issue**. If there are any supplementary courses or additional materials for existing courses, please **Pull Request**. Thank you for your contribution! 🙏
 
 May this repository be of greatest help to you!
