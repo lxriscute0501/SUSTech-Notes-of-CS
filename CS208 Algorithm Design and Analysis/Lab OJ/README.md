@@ -1,5 +1,7 @@
 
-[!image]()
+<div align='center'>
+    <img src="./image/grade.jpg" alt="alt text" width="100%">
+</div>
 
 
 ### 补题
