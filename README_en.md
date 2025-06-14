@@ -2,7 +2,7 @@
 
 # SUSTech Notes of CS
 
-[:book:] Language: [中文](https://github.com/lxriscute0501/SUSTech-Notes-of-CS/blob/main/README.md) | English
+📖 Language: [中文](https://github.com/lxriscute0501/SUSTech-Notes-of-CS/blob/main/README.md) | English
 
 </div>
 
