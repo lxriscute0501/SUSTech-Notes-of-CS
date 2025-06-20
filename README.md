@@ -18,14 +18,18 @@
 
 | 课程 | 学期 | 老师 | 备注 |
 | :-------- | :-------: | :-------: | :-------: |
-| [CS109 计算机程序设计基础](./CS109%20Introduction%20to%20Computer(JavaA)%20Programming%20) | 25 春 | 刘烨庞 | |
-| [CS112 Python程序设计基础](./CS112%20Introduction%20to%20Python%20Programming%20)  | 24 春 | 魏晟 |  |
-| [CS201 离散数学](./CS201%20Discrete%20Mathematics%20) | 25 春 | 唐茗 | |
-| [CS202 计算机组成原理](./CS202%20Computer%20Organization) | 25 春 | 白雨卉 | |
-| [CS203 数据结构与算法分析](./CS203%20Data%20Structure%20and%20Algorithm%20Analysis%20) | 24 秋 | 唐博、沈昀 | |
-| [CS207 数字逻辑](./CS207%20Digital%20Logic%20) | 24 秋 | 白雨卉、王薇 | |
-| [CS208 算法设计与分析](./CS208%20Algorithm%20Design%20and%20Analysis%20) | 25 春 | 史玉回、王维语 | |
-| [CS307 数据库原理](./CS307%20Principles%20of%20Database%20Systems%20) | 24 秋 | 王中秋 | |
+| [CS109 计算机程序设计基础](./CS109%20Introduction%20to%20Computer(JavaA)%20Programming%20) | 25 春 | 刘烨庞 | 已修 |
+| [CS112 Python程序设计基础](./CS112%20Introduction%20to%20Python%20Programming%20)  | 24 春 | 魏晟 | 已修 |
+| [CS201 离散数学](./CS201%20Discrete%20Mathematics%20) | 25 春 | 唐茗 | 已修 |
+| [CS202 计算机组成原理](./CS202%20Computer%20Organization) | 25 春 | 白雨卉 | - |
+| [CS203 数据结构与算法分析](./CS203%20Data%20Structure%20and%20Algorithm%20Analysis%20) | 24 秋 | 唐博、沈昀 | 已修 |
+| [CS207 数字逻辑](./CS207%20Digital%20Logic%20) | 24 秋 | 白雨卉、王薇 | 已修 |
+| [CS208 算法设计与分析](./CS208%20Algorithm%20Design%20and%20Analysis%20) | 25 春 | 史玉回、王维语 | 已修 |
+| CS303 人工智能 | 25 秋 | | 已选 |
+| CS305 计算机网络 | 25 秋 | 唐茗 | 已选 |
+| [CS307 数据库原理](./CS307%20Principles%20of%20Database%20Systems%20) | 24 秋 | 王中秋 | - |
+| CS308 计算机视觉 | 25 春 | 郑锋 | - |
+| CS324 深度学习 | 25 秋 | 张建国 | 已选 | 
 
 ## 各课程所包含内容
 
@@ -44,7 +48,7 @@
 
 - 在所有的labOJ部分尽力补充了题目描述，这样即使题目随着年份变化，代码也仍有参考价值，达到自学的效果！
 
-- 所缺少的： CS207 数字逻辑: lab online OJ
+- **所缺少的：** CS207 数字逻辑: lab online OJ
 
 >[!warning]
 > labOJ上的作业每年可能都十分相似，甚至一模一样，但**请勿直接复制代码**！这会让你的查重出现问题（即使是WA的代码，也会进行查重，所以不要尝试先测试一下），更会丧失代码能力。除此之外，希望这些代码可以帮助你**AC**！
