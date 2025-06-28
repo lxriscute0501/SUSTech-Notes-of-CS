@@ -18,18 +18,18 @@ My course selection plan is rather chaotic. For students majoring in engineering
 
 | Course | Semester | Instructor | Remark |
 | :-------- | :-------: | :-------: | :-------: |
-| [CS109 Introduction to Computer(JavaA) Programming ](./CS109%20Introduction%20to%20Computer(JavaA)%20Programming%20) | 25 Spring | Yepang Liu | Passed |
-| [CS112 Introduction to Python Programming ](./CS112%20Introduction%20to%20Python%20Programming%20)  | 24 Spring | Sheng Wei | Passed |
-| [CS201 Discrete Mathematics ](./CS201%20Discrete%20Mathematics%20) | 25 Spring | Ming Tang | Passed |
+| [CS109 Introduction to Computer(JavaA) Programming ](./CS109%20Introduction%20to%20Computer(JavaA)%20Programming%20) | 25 Spring | Yepang Liu | |
+| [CS112 Introduction to Python Programming ](./CS112%20Introduction%20to%20Python%20Programming%20)  | 24 Spring | Sheng Wei | |
+| [CS201 Discrete Mathematics ](./CS201%20Discrete%20Mathematics%20) | 25 Spring | Ming Tang | |
 | [CS202 Computer Organization](./CS202%20Computer%20Organization) | 25 Spring | Yuhui Bai | - |
-| [CS203 Data Structure and Algorithm Analysis ](./CS203%20Data%20Structure%20and%20Algorithm%20Analysis%20) | 24 Fall | Bo Tang | Passed |
+| [CS203 Data Structure and Algorithm Analysis ](./CS203%20Data%20Structure%20and%20Algorithm%20Analysis%20) | 24 Fall | Bo Tang | |
 | [CS207 Digital Logic ](./CS207%20Digital%20Logic%20) | 24 Fall | Yuhui Bai | Passed |
-| [CS208 Algorithm Design and Analysis ](./CS208%20Algorithm%20Design%20and%20Analysis%20) | 25 Spring | Yuhui Shi | Passed |
-| CS303 Artificial Intelligence | 25 Fall | | Choosen |
-| CS305 Computer Network | 25 Fall | Ming Tang | Choosen |
+| [CS208 Algorithm Design and Analysis ](./CS208%20Algorithm%20Design%20and%20Analysis%20) | 25 Spring | Yuhui Shi |  |
+| CS303 Artificial Intelligence | 25 Fall | | |
+| CS305 Computer Network | 25 Fall | Ming Tang |  |
 | [CS307 Principles of Database Systems ](./CS307%20Principles%20of%20Database%20Systems%20) | 24 Fall | Zhongqiu Wang | - |
-| CS308 Computer Vision | 25 Spring | Feng Zheng | - |
-| CS324 Deep Learning | 25 Fall | Jianguo Zhang | Choosen |
+| [CS308 Computer Vision](./CS308%20Computer%20Vision) | 25 Spring | Feng Zheng | - |
+| CS324 Deep Learning | 25 Fall | Jianguo Zhang | |
 
 
 ### What is included?
@@ -44,6 +44,7 @@ My course selection plan is rather chaotic. For students majoring in engineering
 | [CS207 DL ](./CS207%20Digital%20Logic%20) | ✅ | ✅ | ✅ | ✅ | ✅(lab, on BB) | ✅ |
 | [CS208 ADA ](./CS208%20Algorithm%20Design%20and%20Analysis%20) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [CS307 Database ](./CS307%20Principles%20of%20Database%20Systems%20) | ✅ | ✅ | ✅ | | | ✅ |
+| [CS308 Computer Vision](./CS308%20Computer%20Vision) | ✅ | | | | | |
 
 ## PS
 
