@@ -1,4 +1,0 @@
-numpy
-matplotlib
-tomli
-imageio>=2.20.0
