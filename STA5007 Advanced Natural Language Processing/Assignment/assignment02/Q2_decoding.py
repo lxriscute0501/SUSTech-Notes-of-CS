@@ -35,19 +35,18 @@ class DecodingSampler:
     # -------------------------
     def apply_temperature(self, logits: torch.Tensor, temperature: float) -> torch.Tensor:
         """Apply temperature scaling to logits."""
-        # TODO: implement
-        raise NotImplementedError
+        if temperature <= 0:
+            raise ValueError("Invalid!")
+        return logits / temperature
 
 
     def softmax_probs(self, logits: torch.Tensor) -> torch.Tensor:
         """Convert logits to probabilities."""
-        # TODO: implement
-        raise NotImplementedError
+        return torch.softmax(logits, dim=-1)
 
     def sample_from_probs(self, probs: torch.Tensor) -> int:
         """Sample a single token ID from a probability distribution."""
-        # TODO: implement
-        raise NotImplementedError
+        return torch.multinomial(probs, num_samples=1).item()
 
     # -------------------------
     # Decoding steps (single token)
@@ -55,13 +54,28 @@ class DecodingSampler:
 
     def topp_step(self, logits: torch.Tensor, p: float) -> int:
         """Top-P (nucleus) sampling: sample from smallest set with cumulative prob >= p."""
-        # TODO: implement
-        raise NotImplementedError
+        probs = self.softmax_probs(logits)
+        sorted_probs, sorted_idx = torch.sort(probs, descending=True)
+        cumulative = torch.cumsum(sorted_probs, dim=-1)
+        cutoff_mask = cumulative <= p
+        cutoff_mask[cumulative > p][0:1] = True
+        filtered_probs = sorted_probs * cutoff_mask
+        if filtered_probs.sum() == 0:
+            return torch.argmax(probs).item()
+        filtered_probs = filtered_probs / filtered_probs.sum()
+        sampled_pos = torch.multinomial(filtered_probs, num_samples=1)
+        token_id = sorted_idx[sampled_pos].item()
+        return token_id
 
     def minp_step(self, logits: torch.Tensor, p_min: float) -> int:
         """Min-P sampling: keep tokens with prob >= p_min."""
-        # TODO: implement
-        raise NotImplementedError
+        probs = self.softmax_probs(logits)
+        mask = probs >= p_min
+        if mask.sum() == 0:
+            return torch.argmax(probs).item()
+        filtered_probs = probs * mask
+        filtered_probs = filtered_probs / filtered_probs.sum()
+        return torch.multinomial(filtered_probs, num_samples=1).item()
 
     # -------------------------
     # Generation loop
