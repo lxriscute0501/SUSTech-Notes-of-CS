@@ -1,0 +1,9 @@
+Source of ipython notebooks: https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html
+
+Other good tutorials:
+- https://pytorch.org/tutorials/beginner/pytorch_with_examples.html
+- https://pytorch.org/tutorials/beginner/nn_tutorial.html
+
+Online demos:
+- https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html
+- https://playground.tensorflow.org
