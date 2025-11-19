@@ -69,12 +69,31 @@ class LoRALinear(nn.Module):
     def __init__(self, base_linear: nn.Linear, r: int = 8, alpha: int = 16, dropout: float = 0.0):
         super().__init__()
         # TODO: Validate base_linear is nn.Linear; set in/out features
+        if not isinstance(base_linear, nn.Linear):
+            raise TypeError("Invalid!")
+        self.base_linear = base_linear
+        self.in_features = base_linear.in_features
+        self.out_features = base_linear.out_features
+
         # TODO: Save r, alpha and compute scaling = alpha / r
+        self.r = r
+        self.alpha = alpha
+        self.scaling = alpha / r
+
         # TODO: Keep references to base_linear.weight and base_linear.bias (DO NOT deep copy)
+        self.base_weight = self.base_linear.weight
+        self.base_bias = self.base_linear.bias
+
         # TODO: Create lora_A (in_features -> r, bias=False) and lora_B (r -> out_features, bias=False)
+        self.lora_A = nn.Linear(self.in_features, r, bias=False)
+        self.lora_B = nn.Linear(r, self.out_features, bias=False)
+
         # TODO: Create dropout module (nn.Dropout if dropout>0 else nn.Identity)
+        self.dropout = nn.Dropout(dropout) if dropout and dropout > 0.0 else nn.Identity()
+
         # TODO: Track merged-state flag (e.g., self.merged = False)
-        raise NotImplementedError
+        self.merged = False
+        self.reset_parameters()
 
     def reset_parameters(self):
         """
@@ -82,7 +101,8 @@ class LoRALinear(nn.Module):
         - Initialize lora_A with Kaiming uniform (nn.init.kaiming_uniform_ with a=sqrt(5))
         - Initialize lora_B to all zeros so the initial ΔW is zero
         """
-        raise NotImplementedError
+        nn.init.kaiming_uniform_(self.lora_A.weight, a=math.sqrt(5))
+        nn.init.zeros_(self.lora_B.weight)
 
     @torch.no_grad()
     def merge(self):
@@ -98,7 +118,13 @@ class LoRALinear(nn.Module):
         - (Optional but recommended) zero out lora_A/B weights after merging.
         - Set merged flag so forward() stops using the bypass.
         """
-        raise NotImplementedError
+        if self.merged:
+            return
+        delta = (self.lora_B.weight @ self.lora_A.weight) * self.scaling
+        self.base_weight.data += delta.to(self.base_weight.dtype)
+        self.lora_A.weight.data.zero_()
+        self.lora_B.weight.data.zero_()
+        self.merged = True
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         """
@@ -110,7 +136,12 @@ class LoRALinear(nn.Module):
             * add to the base output
         - Return the final tensor
         """
-        raise NotImplementedError
+        base_out = nn.functional.linear(x, self.base_weight, self.base_bias)
+        if not self.merged and self.r > 0:
+            x_dropped = self.dropout(x)
+            lora_bypass = self.lora_B(self.lora_A(x_dropped)) * self.scaling
+            base_out = base_out + lora_bypass * self.scaling
+        return base_out
 
 
 # ----------------------------------------
@@ -136,7 +167,22 @@ def inject_lora_modules(model: nn.Module, r: int = 8, alpha: int = 16, dropout: 
         * Count how many replacements were made
     - Return the number of replaced modules.
     """
-    raise NotImplementedError
+    replaced = 0
+    for name, module in list(model.named_modules()):
+        if not name:
+            continue
+        if isinstance(module, nn.Linear):
+            for kw in TARGET_LINEAR_KEYWORDS:
+                if name.endswith(kw):
+                    parent_name, _, child_name = name.rpartition('.')
+                    parent = model if parent_name == '' else model.get_submodule(parent_name)
+                    base = module
+                    lora = LoRALinear(base, r=r, alpha=alpha, dropout=dropout)
+                    lora = lora.to(dtype=base.weight.dtype, device=base.weight.device)
+                    setattr(parent, child_name, lora)
+                    replaced += 1
+                    break
+    return replaced
 
 
 # -------------------------------------------------------
@@ -151,8 +197,14 @@ def count_model_params(model: nn.Module) -> Tuple[int, int, float]:
     - trainable = sum of numel() for parameters with requires_grad == True
     - ratio = trainable / total if total > 0 else 0.0
     """
-    raise NotImplementedError
-
+    total = trainable = 0
+    for p in model.parameters():
+        n = p.numel()
+        total += n
+        if p.requires_grad:
+            trainable += n
+    ratio = (trainable / total) if total > 0 else 0.0
+    return trainable, total, ratio
 
 # -------------------------------------------------------
 # Helper: mark only LoRA params as trainable (already implemented for you)
