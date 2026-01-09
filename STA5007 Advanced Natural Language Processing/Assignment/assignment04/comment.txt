@@ -1,0 +1,15 @@
+[
+    {
+        "text1": "Article 1 (NY Post/Cybernews): Reports David Moss's Dec 31, 2025, zero-intervention drive from LA to Myrtle Beach (2,732.4 miles) using FSD V14.2 in a 2025 Model 3. Notes it fulfilled Musk's 2016 prediction and included all parking and charging. Musk commented 'Cool.'",
+        "text2": "Article 2 (Investors.com/WebProNews): Discusses Tesla ramping up 'Robotaxi' messaging before a late-2025/early-2026 deadline. Mentions 'Cybercab' production in April 2026 and testing without human supervisors in Austin. Highlights stock volatility and expert skepticism vs. Waymo.",
+        "text3": "Article 3 (TradingView/Invezz): Compares Tesla FSD v14.2.2.2 to Waymo. Notes Tesla is Level 2 (supervised) while Waymo is Level 4 (driverless). Mentions reliability gap (1,500 miles for Tesla vs. 17,000 for Waymo) and regulatory hurdles (approval in only 2 states for Tesla).",
+        "fusion_text": "Historic Coast-to-Coast FSD Drive Reignites Tesla’s Robotaxi Ambitions Amidst Skepticism (Generated in the previous turn)",
+        "evaluation_problems": [
+            "Precision Error: Paragraph 2: The fused text identifies the driver as David Moss but attributes his arrival to Myrtle Beach, South Carolina on December 31, 2025. While Article 1 confirms this, it omits the specific detail from the source that he had already crossed 10,000 consecutive miles of intervention-free driving prior to the coast-to-coast finish.",
+            "Omission: Paragraph 4: Missing the specific numerical reliability comparison from Article 3. While it mentions the march of nines, it fails to include the concrete data point that Waymo averages 17,000 miles between interventions compared to Tesla's 1,500 miles, which is a key factual pillar of the skepticism described.",
+            "Data Inconsistency: Paragraph 1 & 4: The fused text mentions an 'April 2026 production deadline' for the Cybercab. Article 2 mentions scaling in 2026, but also refers to an 'end-of-year [2025] deadline' for launching unsupervised services. The fusion merges these timelines without clarifying that the 2025 deadline was for unsupervised testing/launch while 2026 is for volume production.",
+            "Factual Nuance Loss: Paragraph 3: The fused text states the drive 'fulfilled a prediction Elon Musk made... for the end of 2017.' It does not clearly distinguish that the 2017 goal was specifically for a demo drive, whereas this 2025 event was a consumer-led achievement, which Article 1 and 3 contrast as a long-overdue milestone.",
+            "Hallucination: Paragraph 2: The text claims the journey took two days and 20 hours. While this matches Article 1, the fused text's framing of the software as FSD V14.2 in one place and implying Level 4 status through the term 'fully autonomous' in the title risks hallucinating the legal/technical classification, which Article 3 explicitly states remains Level 2."
+        ]
+    }
+]
