@@ -30,8 +30,10 @@
 | [CS307 数据库原理](./CS307%20Principles%20of%20Database%20Systems%20) | 24 秋 | 王中秋 | - |
 | [CS308 计算机视觉](./CS308%20Computer%20Vision) | 25 春 | 郑锋 | - |
 | [CS324 深度学习](./CS324%20Deep%20Learning) | 25 秋 | 张建国 | | 
-| STA101 魅力统计 | 24 春 | 徐匆 | |
-| STA5007 高级自然语言处理 | 25 秋 | 陈冠华 | 研 |
+| [CS338 计算理论导论](./CS338%20Introduction%20to%20Theory%20of%20Computation) | 26 春 | Pietro Simone Oliveto |  |
+| [STA101 魅力统计](./STA101%20Fascinating%20Statistics) | 24 春 | 徐匆 | |
+| [STA201 运筹与优化](./STA201%20Operational%20Research%20and%20%Optimization) | 25 春 | 王超 | - |
+| [STA5007 高级自然语言处理](./STA5007%20Advanced%20Natural%20Language%20Processing) | 25 秋 | 陈冠华 | 研 |
 
 
 
