@@ -27,15 +27,15 @@
 | [CS208 算法设计与分析](./CS208%20Algorithm%20Design%20and%20Analysis%20) | 25 春 | 史玉回 | ✅ |
 | [CS302 计算机操作系统](./CS302%20Operating%20Systems/) | 26 春 | 张殷乾 | ✅ |
 | [CS303 人工智能](./CS303%20Artificial%20Intelligence) | 25 秋 | 郑明凯 | ✅ |
-| CS304 软件工程 | 26 春 | 陶伊达 | - |
-| CS305 计算机网络 | 25 秋 | 唐茗 | - |
+| [CS304 软件工程](./CS304%20Software%20Engineering/) | 26 春 | 陶伊达 | - |
+| [CS305 计算机网络](./CS305%20Computer%20Networks/) | 25 秋 | 唐茗 | - |
 | [CS307 数据库原理](./CS307%20Principles%20of%20Database%20Systems%20) | 26 春 | 王中秋 | ✅ |
 | [CS308 计算机视觉](./CS308%20Computer%20Vision) | 25 春 | 郑锋 | - |
-| CS310 自然语言处理 | 26 春 | 徐炀 | - |
+| [CS310 自然语言处理](./CS310%20Natural%20Language%20Processing/) | 26 春 | 徐炀 | - |
+| [CS323 编译原理](./CS323%20Compilers/) | 25 秋 | 刘烨庞 | - |
 | [CS324 深度学习](./CS324%20Deep%20Learning) | 25 秋 | 张建国 | ✅ | 
 | [CS338 计算理论导论](./CS338%20Introduction%20to%20Theory%20of%20Computation) | 26 春 | Pietro Simone Oliveto | - |
 | [STA101 魅力统计](./STA101%20Fascinating%20Statistics) | 24 春 | 徐匆 | ✅ |
-| [STA201 运筹与优化](./STA201%20Operational%20Research%20and%20%Optimization) | 25 春 | 王超 | - |
 | [STA5007 高级自然语言处理](./STA5007%20Advanced%20Natural%20Language%20Processing) | 25 秋 | 陈冠华 | 研 ✅ |
 
 

@@ -34,7 +34,6 @@ My course selection plan is rather chaotic. For students majoring in engineering
 | [CS324 Deep Learning](./CS324%20Deep%20Learning) | 25 Fall | Jianguo Zhang | ✅ |
 | CS338 Introduction to Theory of Computation | 26 Spring | Pietro Simone Oliveto | - |
 | [STA101 Fascinating Statistics](./STA101%20Fascinating%20Statistics/) | 24 Spring | Cong Xu | ✅ |
-| [STA201 Operational Research and Optimization](./STA201%20Operational%20Research%20and%20Optimization/) | 25 Spring | Chao Wang | - |
 | [STA5007 Advanced Natural Language Processing](./STA5007%20Advanced%20Natural%20Language%20Processing/) | 25 Fall | Guanhua Chen | Graduate ✅ |
 
 
