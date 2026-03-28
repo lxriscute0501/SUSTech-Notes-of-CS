@@ -1,0 +1,34 @@
+# SPDX-License-Identifier: GPL-2.0
+#
+# clang-format configuration file. Intended for clang-format >= 4.
+#
+# For more information, see:
+#
+#   Documentation/process/clang-format.rst
+#   https://clang.llvm.org/docs/ClangFormat.html
+#   https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+#
+
+BasedOnStyle: Google
+IndentWidth: 4
+UseTab: Never
+ColumnLimit: 180
+MaxEmptyLinesToKeep: 1
+
+DerivePointerAlignment: true
+PointerAlignment: Left
+AlignArrayOfStructures: Left
+AlignConsecutiveMacros: true
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortBlocksOnASingleLine: false
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortIfStatementsOnASingleLine: Never
+AlwaysBreakTemplateDeclarations: Yes
+AlignAfterOpenBracket: Align
+BinPackArguments: false
+
+
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
