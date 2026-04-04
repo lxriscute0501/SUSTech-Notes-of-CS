@@ -1,0 +1,15 @@
+int arr[5][10];
+int f() {
+    int arr[3];
+    arr[0] = 10;
+    return arr;
+}
+int g(int i) {return i;}
+
+int main() {
+    int x = f + 1;                  // [Error 1] f 是函数，不能用于加法 → identifierNotVariable
+    int y = arr + 0;                  // [Error 2] unmatchedTypeForBinaryOP（赋值左右类型不同）
+    ++(g(1) + 2);                   // [Error 3] g(1)+2 是 rvalue，不能自增 → lvalueRequired
+
+    return 0;
+}

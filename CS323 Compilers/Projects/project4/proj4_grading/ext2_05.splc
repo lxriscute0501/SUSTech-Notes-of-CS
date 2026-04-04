@@ -1,0 +1,16 @@
+struct s0 {
+    int a;
+    int *ptr;
+};
+
+int main0() {
+    struct s0 s;
+    struct s0 *ptrs;
+    ptrs = &s;
+    int**p2 = &ptrs[2].ptr;
+    *p2 = &s.a;
+    if (p2 != 0 && *p2) {
+        (*ptrs).ptr = (*(&s)).ptr;
+    }
+    return **p2;
+}

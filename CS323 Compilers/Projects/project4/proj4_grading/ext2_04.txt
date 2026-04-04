@@ -1,0 +1,4 @@
+Line 10: Unexpected Type: for operator =, lhs: int[114514]*, rhs: int[45]*
+Line 16: Unexpected Type: int
+Line 21: Unexpected Type: for operator =, lhs: int*, rhs: int
+Line 28: lvalue: lvalue is required.

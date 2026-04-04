@@ -1,0 +1,7 @@
+int c;
+int func();
+int c();
+
+int main() {
+    return 0;
+}

@@ -1,0 +1,8 @@
+Line 14: Unexpected Type: struct Obj
+Line 19: Struct: 'z' is not a member of struct Vec
+Line 21: Unexpected Type: struct Obj
+Line 23: badIdent: identifier is not a variable: gen
+Line 27: badIdent: identifier is not a function: obj
+Line 29: Unexpected Type: for operator =, lhs: struct Obj, rhs: int
+Line 31: Unexpected Type: for operator ==, lhs: int, rhs: struct Obj
+Line 33: badCall: 0-th param mismatch

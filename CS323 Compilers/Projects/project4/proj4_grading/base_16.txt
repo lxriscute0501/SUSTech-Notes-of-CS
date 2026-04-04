@@ -1,0 +1,5 @@
+Line 4: badIdent: identifier is not a variable: f
+Line 5: badCall: param count mismatch, requires: 0, given: 1
+Line 6: badCall: param count mismatch, requires: 0, given: 1
+Line 7: Unexpected Type: for operator ==, lhs: int[100], rhs: int[100]
+Line 9: Unexpected Type: for operator =, lhs: int[2], rhs: int

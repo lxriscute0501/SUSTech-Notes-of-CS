@@ -1,0 +1,8 @@
+Line 12: Struct: 'b' is not a member of struct L1
+Line 13: Unexpected Type: struct L2
+Line 14: badIdent: identifier is not a variable: f
+Line 16: Unexpected Type: for operator =, lhs: struct L2, rhs: struct L2
+Line 17: Unexpected Type: for operator =, lhs: struct L1, rhs: struct L1
+Line 20: Unexpected Type: for operator =, lhs: struct L3, rhs: int
+Line 21: badCall: 0-th param mismatch
+Line 22: badCall: param count mismatch, requires: 3, given: 1

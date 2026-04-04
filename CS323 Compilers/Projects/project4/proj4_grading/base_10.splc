@@ -1,0 +1,12 @@
+int data[10];
+int get(){return 12;}
+int main() {
+    data == data;                    // unmatchedTypeForBinaryOP (array == int)
+    get();
+    get = 3;               // identifierNotVariable
+    --(get() * 2);                // lvalueRequired
+    ++(get() * 2);
+    (get() * 2)++;
+    (get() * 2)--;
+    return get();
+}

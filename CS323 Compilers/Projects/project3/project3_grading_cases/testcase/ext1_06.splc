@@ -1,0 +1,7 @@
+struct Data {
+    int x;
+    struct inner {
+        int x;
+        char y;
+    } q0;
+} d0;

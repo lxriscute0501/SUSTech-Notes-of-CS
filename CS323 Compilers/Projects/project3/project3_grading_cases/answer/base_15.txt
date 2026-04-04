@@ -1,0 +1,7 @@
+Variables:
+x: int
+y: int
+
+Functions:
+main: int(int)
+func: int()

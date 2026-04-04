@@ -1,0 +1,10 @@
+int buf[10];
+int read(){return 12;}
+int main() {
+    read() == read();
+    read() >= 11;
+    read() = read();
+    buf = read();                 // unmatchedTypeForBinaryOP
+    read()++;                  // lvalueRequired
+    return 0;
+}

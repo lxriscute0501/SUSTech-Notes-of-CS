@@ -1,0 +1,11 @@
+int pool[100];
+int f();
+int main() {
+    pool[f] = 1;                  // f is function → identifierNotVariable (as array index must be int)
+    f(pool[0]);
+    f(pool);
+    pool == pool;                 // unmatchedTypeForBinaryOP
+    int x[2];
+    x = pool[0] == pool[0];
+    return 0;
+}

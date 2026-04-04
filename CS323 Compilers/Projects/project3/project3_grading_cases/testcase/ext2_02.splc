@@ -1,0 +1,5 @@
+struct b {
+    char b;
+    struct b *ptr;
+} b0;
+struct a *ptr;

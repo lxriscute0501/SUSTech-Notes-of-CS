@@ -1,0 +1,2 @@
+Line 15: Unexpected Type: for operator =, lhs: struct Date, rhs: struct Date
+Line 16: Unexpected Type: for operator =, lhs: struct Date[30], rhs: struct Date[30]

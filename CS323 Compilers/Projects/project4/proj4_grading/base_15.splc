@@ -1,0 +1,8 @@
+int M[10];
+int g(int x, int y){return x;}
+int main() {
+    g(M[0]);                      // badParamCount
+    M || 1;                       // unexpectedType
+    M = 0;                        // unmatchedTypeForBinaryOP
+    return 0;
+}

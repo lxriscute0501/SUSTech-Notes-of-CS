@@ -1,0 +1,15 @@
+int get() {return 0;}
+int main() {
+    int x = 10;
+    while (2) {
+        int X[11];
+        while (X) {
+            while (get() == 11) {
+                if (x = get()) {
+                    int y = 11;
+                }
+            }
+        }
+    }
+    return x = get();
+}

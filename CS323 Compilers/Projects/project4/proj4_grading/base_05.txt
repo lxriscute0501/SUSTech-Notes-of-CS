@@ -1,0 +1,3 @@
+Line 4: badIdent: identifier is not a variable: reader
+Line 5: Unexpected Type: int[10]
+Line 6: badCall: param count mismatch, requires: 0, given: 3

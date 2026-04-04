@@ -1,0 +1,3 @@
+Line 4: Unexpected Type: int[4][3]
+Line 5: Unexpected Type: for operator ==, lhs: int[4][3], rhs: int[4][3]
+Line 6: lvalue: lvalue is required.

@@ -1,0 +1,12 @@
+int X[3];
+int Y;
+int fetch(){return 0;}
+int main() {
+    Y = X;                        // unmatchedTypeForBinaryOP
+    fetch == 0;                   // identifierNotVariable
+    if (X) {} else {}
+    fetch() = 5;
+    int y;
+    int x = y = fetch();
+    return 0;
+}

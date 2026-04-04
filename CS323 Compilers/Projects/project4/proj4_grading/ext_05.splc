@@ -1,0 +1,47 @@
+struct E { int val; };
+struct D { struct E e1;
+           struct E e2;
+           };
+struct C { struct D d; int flag; };
+struct B { struct C c_arr[2]; };
+struct A { struct B b; };
+
+int f0() { return 1; }
+int f1(int x) { return x; }
+int f2(struct A a, int b, int c) { return a + b + c; }
+
+int makeA() {
+    struct A a;
+    a.b.c_arr[0].d.e1.val = 10;
+    a.b.c_arr[0].d.e2.val = 20;
+    a.b.c_arr[1].d.e1.val = 30;
+    a.b.c_arr[1].d.e2.val = 40;
+    a.b.c_arr[0].flag = 1;
+    a.b.c_arr[1].flag = 0;
+    return a;
+}
+
+int main() {
+    // 1. badMember: nonexistent member in deep path
+    struct A aa;
+    aa.b.c_arr[0].d.e1.nonexist = 99;
+
+    // 2. unexpectedType: struct used in while condition
+    while (aa) {}
+
+    // 3. identifierNotVariable: function used as variable in arithmetic
+    int tmp = f0 + aa.b.c_arr[0].flag;
+
+    aa.b.c_arr[0].flag;
+
+    struct B b_local;
+    b_local = f0();  // int assigned to struct B
+
+    // 7. badParamType: pass struct to int parameter
+    f1(aa.b.c_arr[0].d.e1);
+
+    // 8. badParamCount: too few args
+    f2(aa);
+
+    return 0;
+}

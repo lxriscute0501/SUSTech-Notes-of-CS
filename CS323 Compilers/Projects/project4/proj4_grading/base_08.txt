@@ -1,0 +1,4 @@
+Line 5: Unexpected Type: for operator =, lhs: int, rhs: int[3]
+Line 6: badIdent: identifier is not a variable: fetch
+Line 7: Unexpected Type: int[3]
+Line 8: lvalue: lvalue is required.

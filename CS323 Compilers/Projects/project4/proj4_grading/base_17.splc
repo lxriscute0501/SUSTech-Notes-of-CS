@@ -1,0 +1,10 @@
+int X[5];
+int get_int(){return X[1];}
+int main() {
+    X[get_int()] = get_int() == 1;   // get_int = 1 → identifierNotVariable
+    X / 2;                        // unexpectedType
+    get_int()--;                  // lvalueRequired
+    int x = X;
+    int y[11] = X[1] == 10;
+    return 0;
+}

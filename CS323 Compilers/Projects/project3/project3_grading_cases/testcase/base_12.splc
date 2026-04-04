@@ -1,0 +1,6 @@
+
+int main(int argc) {
+    if (0) {
+        argc = 123;
+    }
+}

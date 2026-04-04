@@ -1,0 +1,8 @@
+Line 7: badIdent: identifier is not a variable: f
+Line 11: badIdent: identifier is not a function: A
+Line 14: Unexpected Type: int[6][5][4][3]
+Line 17: Unexpected Type: int[6][5][4]
+Line 20: Unexpected Type: for operator =, lhs: int[6][5][4][3], rhs: int
+Line 23: badCall: param count mismatch, requires: 3, given: 2
+Line 24: badCall: 0-th param mismatch
+Line 26: lvalue: lvalue is required.

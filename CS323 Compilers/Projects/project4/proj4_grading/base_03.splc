@@ -1,0 +1,9 @@
+int X[2][3][4];
+int get(){return 0;}
+int main() {
+    -X[0];                        // unexpectedType (unary minus on array)
+    X[0] == X[1];                 // unmatchedTypeForBinaryOP (array == array)
+    ++get();                      // lvalueRequired? No — get() is rvalue → ++ needs lvalue → lvalueRequired
+    return 0;
+
+}

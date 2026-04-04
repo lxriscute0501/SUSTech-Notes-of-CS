@@ -1,0 +1,4 @@
+struct Data {
+    int x;
+    char x; 
+};

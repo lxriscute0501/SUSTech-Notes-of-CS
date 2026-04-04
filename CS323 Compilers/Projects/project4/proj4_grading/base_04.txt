@@ -1,0 +1,2 @@
+Line 4: Unexpected Type: for operator ==, lhs: int[5], rhs: int
+Line 5: badCall: param count mismatch, requires: 2, given: 1

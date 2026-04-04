@@ -1,0 +1,1 @@
+Line 23: Unexpected Type: struct str2

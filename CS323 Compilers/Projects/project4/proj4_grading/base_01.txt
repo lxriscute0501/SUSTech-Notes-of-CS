@@ -1,0 +1,4 @@
+Line 5: Unexpected Type: int[3]
+Line 10: badIdent: identifier is not a variable: f
+Line 11: Unexpected Type: for operator +, lhs: int[10][5], rhs: int
+Line 12: lvalue: lvalue is required.

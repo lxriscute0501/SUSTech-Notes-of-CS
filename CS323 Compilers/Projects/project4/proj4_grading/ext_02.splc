@@ -1,0 +1,36 @@
+struct Vec { int x; int y; };
+struct Obj { struct Vec pos; int id; };
+
+// 函数定义
+int gen() { return 100; }
+int calc(int a) { return a * 2; }
+int tick() { return 1; }
+
+int create() {
+    struct Obj o;
+    o.pos.x = 0;
+    o.pos.y = 0;
+    o.id = 1;
+    return o;
+}
+
+int main() {
+    struct Obj oo;
+    oo.pos.z = 5;           // badMember: z not in Vec
+
+    while (oo) {}           // unexpectedType: struct in while condition
+
+    int a = gen + 10;             // identifierNotVariable: gen is function
+
+    struct Obj obj;
+
+    obj();
+
+    obj = gen();                  // unmatchedTypeForBinaryOP: struct = int ([2.2.14])
+
+    create() == obj;              // unmatchedTypeForBinaryOP: struct == struct ([2.2.12])
+
+    calc(oo);               // badParamType: pass struct to int parameter
+
+    return 0;
+}

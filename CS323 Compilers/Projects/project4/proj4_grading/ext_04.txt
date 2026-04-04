@@ -1,0 +1,8 @@
+Line 6: Unexpected Type: struct Packet
+Line 10: Struct: 'checksum' is not a member of struct Header
+Line 12: badIdent: identifier is not a variable: hash
+Line 14: badIdent: identifier is not a function: pkt
+Line 15: lvalue: lvalue is required.
+Line 16: Unexpected Type: for operator =, lhs: struct Packet, rhs: int
+Line 17: Unexpected Type: for operator !=, lhs: int, rhs: struct Packet
+Line 18: badCall: param count mismatch, requires: 2, given: 1

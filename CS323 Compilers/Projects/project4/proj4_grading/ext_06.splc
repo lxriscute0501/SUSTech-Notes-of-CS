@@ -1,0 +1,21 @@
+struct Z { int v; };
+struct Y { struct Z z0; struct Z z1; };
+struct X { struct Y y; int tag; };
+struct W { struct X x; };
+
+int getW() { struct W w; w.x.y.z0.v = 1; w.x.y.z1.v = 2; w.x.tag = 3; return w; }
+int f() { return 10; }
+int g(int a) { return a; }
+int h(int a, int b, int c) { return 0; }
+
+int main() {
+    struct W ww;
+    ww.x.y.z0.u = 5;
+    if (ww.x.tag) {}
+    int a = f + ww.x.tag;
+
+    ww.x.y.z1 = ww.x.y.z0;
+    struct X x1; x1 = f();
+    g(ww.x.y.z0);
+    return ww;
+}

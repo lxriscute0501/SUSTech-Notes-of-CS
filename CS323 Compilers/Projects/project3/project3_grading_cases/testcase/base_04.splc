@@ -1,0 +1,7 @@
+int global_var;
+char b;
+int global_var;
+
+int main() {
+    return 0;
+}

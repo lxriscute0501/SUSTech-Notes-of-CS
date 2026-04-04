@@ -1,0 +1,23 @@
+struct Date {
+    int year;
+    int month;
+    int day;
+};
+
+int main0() {
+    struct Date dates[10][20][30];
+    struct Date date;
+
+    date.year = 123;
+    date.month = 456;
+    date.day = 789;
+
+    dates[1][2][3] = date;
+    dates[1][2] = dates[3][2];
+
+    if (dates[1][2][3].year - 1 == date.month) {
+        return date.year <= 123;
+    }
+
+    return 0;
+}

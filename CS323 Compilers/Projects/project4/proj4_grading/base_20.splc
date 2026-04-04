@@ -1,0 +1,31 @@
+int h();
+int proc(int x){return x;}
+int B[1][2][3][4][5][6];          // 6D array
+
+int main() {
+    // 1. identifierNotVariable
+    int tmp = h + h();
+
+    // 2. identifierNotFunction
+    B();
+
+    // 3. unexpectedType: if 条件为 struct-like（但此处是 array）
+    if (B[0][0]) {}
+
+    // 4. unexpectedType: while 条件为函数（h 是函数值，非 int/pointer）
+    while (h) {}                  // h is function → not int/pointer
+
+    // 5. unmatchedTypeForBinaryOP: 相等比较中 array vs 0（array 不是指针）
+    B[0] == 0;
+
+    // 6. badParamCount
+    proc();
+
+    // 7. badParamType
+    proc(B[0][0][0]);
+
+    // 8. lvalueRequired
+    (h() + B[0][0][0][0][0][0])++;
+
+    return 0;
+}

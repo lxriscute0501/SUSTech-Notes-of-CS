@@ -1,0 +1,3 @@
+int func(int a, char a) {
+    return 0;
+}

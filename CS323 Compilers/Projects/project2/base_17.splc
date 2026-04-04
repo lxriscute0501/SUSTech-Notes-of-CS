@@ -1,0 +1,25 @@
+int a;
+int b;
+int c;
+char d;
+int;
+char;
+int a(char a,char a,char a,char a,char a) {
+{{{}{}}}
+int a;
+if (a || b && c || d && !e) {
+while(1) if (b) while(c) if (d) d; else {v; return a; a; 123; (a);}
+}}
+int main() {
+    char c = 'A';
+    char tab = '\t';
+    if (c == 'A') {
+        return 1;
+    }
+    return a(1,123,2341234,'a','q','w','q');
+    a(1);
+    1[2];
+    a++-++a;
+    int you_win = i--+!a(1)++&&b[1]||-c-+c--<=123;
+    return 0;
+}

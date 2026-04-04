@@ -1,0 +1,13 @@
+struct b {
+    struct b *ptr1;
+    struct a *ptr2;
+};
+struct a {
+    struct b b0;
+    int qwq;
+};
+int main0() {
+    struct b b0;
+    b0.ptr2->qwq = 1;
+    b0.ptr2->qwq++ = 3;
+}

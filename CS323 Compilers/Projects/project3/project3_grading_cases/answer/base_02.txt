@@ -1,0 +1,5 @@
+Variables:
+
+Functions:
+a: int()
+b: int(char,int[3][2][1])

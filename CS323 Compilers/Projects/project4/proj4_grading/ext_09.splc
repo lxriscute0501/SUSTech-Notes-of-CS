@@ -1,0 +1,28 @@
+int assert_eq(int where, int given, int expected);
+
+struct str2 {
+    int aq;
+} s2;
+
+struct str1 {
+    int qwq;
+    int quq;
+};
+
+int func(struct str1 s0) {
+    s0.qwq = 123;
+    return s0.quq;
+}
+
+int main0() {
+    struct str1 local;
+    local.qwq = 1;
+    local.quq = 3;
+    assert_eq(1, func(local), 3);
+    assert_eq(2, local.qwq, 1);
+    if (1 >= s2) {
+        struct str2 local;
+        if (local.aq != 3) local.aq = 114514;
+    }
+    return 0;
+}

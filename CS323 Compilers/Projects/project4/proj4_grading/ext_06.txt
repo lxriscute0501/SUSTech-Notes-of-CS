@@ -1,0 +1,7 @@
+Line 6: Unexpected Type: struct W
+Line 13: Struct: 'u' is not a member of struct Z
+Line 15: badIdent: identifier is not a variable: f
+Line 17: Unexpected Type: for operator =, lhs: struct Z, rhs: struct Z
+Line 18: Unexpected Type: for operator =, lhs: struct X, rhs: int
+Line 19: badCall: 0-th param mismatch
+Line 20: Unexpected Type: struct W

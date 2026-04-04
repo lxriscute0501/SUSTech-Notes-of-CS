@@ -1,0 +1,9 @@
+int pool[20];
+int pp[11];
+int fetch(){return pool[11];}
+int main() {
+    pool[pp];    // fetch = 5 → identifierNotVariable; then assign to pool[…]
+    ++pool;                       // unexpectedType (prefix on array)
+    fetch();
+    return pool;
+}

@@ -1,0 +1,104 @@
+Parse Tree:
+(program
+  (globalDef
+    (specifier
+      struct Data { 
+      (specifier int)
+      (varDec val) ; 
+      (specifier int)
+      (varDec
+        * 
+        (varDec ptr_to_val)
+      ) ; } 
+    ) ; 
+  )
+  (globalDef
+    (specifier
+      struct data { 
+      (specifier int)
+      (varDec
+        (varDec a) [ 123 ] 
+      ) ; 
+      (specifier int)
+      (varDec
+        * 
+        (varDec
+          (varDec a) [ 123 ] 
+        )
+      ) ; 
+      (specifier int)
+      (varDec
+        * 
+        (varDec
+          ( 
+          (varDec
+            (varDec
+              ( 
+              (varDec
+                * 
+                (varDec a)
+              ) ) 
+            ) [ 123 ] 
+          ) ) 
+        )
+      ) ; 
+      (specifier int)
+      (varDec
+        * 
+        (varDec
+          ( 
+          (varDec
+            * 
+            (varDec
+              * 
+              (varDec
+                (varDec
+                  ( 
+                  (varDec
+                    * 
+                    (varDec a)
+                  ) ) 
+                ) [ 123 ] 
+              )
+            )
+          ) ) 
+        )
+      ) ; 
+      (specifier int)
+      (varDec
+        * 
+        (varDec
+          (varDec
+            ( 
+            (varDec
+              * 
+              (varDec
+                * 
+                (varDec
+                  (varDec
+                    ( 
+                    (varDec
+                      * 
+                      (varDec a)
+                    ) ) 
+                  ) [ 123 ] 
+                )
+              )
+            ) ) 
+          ) [ 345 ] 
+        )
+      ) ; } 
+    )
+    (varDec q) ; 
+  )
+  (globalDef
+    (specifier struct data)
+    (varDec
+      * 
+      (varDec asd)
+    ) ; 
+  ) <EOF> 
+)
+
+ANTLR SyntaxError count: 0
+constexpr:

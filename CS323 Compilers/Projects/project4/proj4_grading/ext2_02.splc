@@ -1,0 +1,31 @@
+struct Node { int id; struct Node *next; };
+
+int read() { return 1; }
+int use(struct Node *p) { return p->id; }
+int calc(int a, int b, int c) { return 0; }
+
+int main() {
+    struct Node n1;
+    struct Node n2;
+    struct Node n3;
+    struct Node *p1 = &n1;
+    struct Node *p2 = &n2;
+    struct Node *p3 = &n3;
+    int arr[5];
+    p1->name = 123;                   // badMember
+    if (p1 - p2 - p3) {}              // unmatchedTypeForBinaryOP: (int) - ptr → int - pointer [2.2.9]
+    while (arr[0] && p1) {}              // unexpectedType: array in logic [2.2.13]
+    int z = read + p1->id;            // identifierNotVariable
+    p1 + p2;
+    p1 - p2;
+    p1 + 5;
+    p1 - 5;
+    5 + p1;
+    5 - p1;
+    use(&n1);
+    use(n1);                // badParamType
+    calc(p1->id);                     // badParamCount
+    p1 = read();                      // unmatchedTypeForBinaryOP: ptr = non-zero int [2.2.14]
+    p1 = 0;
+    return 0;
+}

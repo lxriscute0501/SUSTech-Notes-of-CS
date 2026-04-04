@@ -1,0 +1,8 @@
+Line 11: Unexpected Type: for operator +, lhs: struct A, rhs: int
+Line 21: Unexpected Type: struct A
+Line 27: Struct: 'nonexist' is not a member of struct E
+Line 30: Unexpected Type: struct A
+Line 33: badIdent: identifier is not a variable: f0
+Line 38: Unexpected Type: for operator =, lhs: struct B, rhs: int
+Line 41: badCall: 0-th param mismatch
+Line 44: badCall: param count mismatch, requires: 3, given: 1

@@ -1,0 +1,19 @@
+struct Node { int val; };
+struct Graph { struct Node nodes[2][2]; };
+
+int gen() { return 0; }
+int read(int n) { return n; }
+int write(int a, int b, int c) { return 0; }
+
+int main() {
+    struct Graph gg;
+    gg.nodes[0][0].key = 1;      // badMember
+    if (gg.nodes[1]) {}          // unexpectedType
+    int w = gen + gg.nodes[0][1].val; // identifierNotVariable
+    read() = 1; // lvalueRequired
+    struct Graph g;
+    g = gen();        // unmatchedTypeForBinaryOP
+    read(gg.nodes[0][0]);        // badParamType
+    write(42);                        // badParamCount
+    return gg;
+}

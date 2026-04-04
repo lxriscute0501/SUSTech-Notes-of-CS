@@ -1,0 +1,1 @@
+4:8: error: Undeclared use of 'local'

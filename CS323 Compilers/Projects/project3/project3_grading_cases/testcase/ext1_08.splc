@@ -1,0 +1,22 @@
+struct Node;
+
+struct Point {
+    int x;
+    int y;
+} global_point;
+
+char global_arr[10];
+
+int func_decl(int b0, struct Point p[21]);
+
+struct Node {
+    int data;
+    int func_decl;
+};
+
+int main() {
+    int global_x;
+    global_x = 10;
+    func_decl();
+    return 0;
+}

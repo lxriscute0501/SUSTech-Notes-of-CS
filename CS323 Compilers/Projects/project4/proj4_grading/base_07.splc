@@ -1,0 +1,12 @@
+int P[2][2];
+int f(){return 0;}
+int main() {
+    P[0] = P[1] + 1;              // unmatchedTypeForBinaryOP (array + int → then assign array)
+    f();
+    f();
+    int y = f;                    // identifierNotVariable
+    P % 2;                        // unexpectedType (mod on array)
+    P * 2;
+    f() / 2;
+    return 0;
+}

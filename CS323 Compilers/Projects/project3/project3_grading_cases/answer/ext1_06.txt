@@ -1,0 +1,4 @@
+Variables:
+d0: struct Data{int x;struct inner q0;}
+
+Functions:

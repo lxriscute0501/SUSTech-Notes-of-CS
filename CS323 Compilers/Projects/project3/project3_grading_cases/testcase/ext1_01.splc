@@ -1,0 +1,11 @@
+struct T {
+    int x;
+};
+
+struct T {
+    int y;
+} var;
+
+int main() {
+    return 0;
+}

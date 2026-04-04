@@ -1,0 +1,15 @@
+Variables:
+a: int
+c: char
+d: struct qwq[123]
+s0a: struct s0{struct s0* p;char*[123] c;}
+v0: int[123]
+v1: int*[123]
+v2: int[123]*
+v3: int*[123]*
+v4: int***[123]*
+v5: int*[345]**[123]*
+bcd: int[4][3][2][1]
+
+Functions:
+main: int(int,int[1])

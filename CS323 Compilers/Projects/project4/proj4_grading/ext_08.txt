@@ -1,0 +1,8 @@
+Line 10: Struct: 'key' is not a member of struct Node
+Line 11: Unexpected Type: struct Node[2]
+Line 12: badIdent: identifier is not a variable: gen
+Line 13: badCall: param count mismatch, requires: 1, given: 0
+Line 15: Unexpected Type: for operator =, lhs: struct Graph, rhs: int
+Line 16: badCall: 0-th param mismatch
+Line 17: badCall: param count mismatch, requires: 3, given: 1
+Line 18: Unexpected Type: struct Graph

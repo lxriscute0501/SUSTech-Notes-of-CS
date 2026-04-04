@@ -1,0 +1,7 @@
+struct Node;
+struct Node root;
+struct Node node_array[10];
+
+struct Node {
+    int t;
+};

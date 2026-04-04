@@ -1,0 +1,1 @@
+2:4: error: Undeclared use of 'a'

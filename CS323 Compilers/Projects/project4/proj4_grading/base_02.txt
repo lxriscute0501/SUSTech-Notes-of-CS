@@ -1,0 +1,3 @@
+Line 5: badIdent: identifier is not a function: arr
+Line 6: badCall: 0-th param mismatch
+Line 7: Unexpected Type: int[10]

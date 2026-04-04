@@ -1,0 +1,6 @@
+Line 4: Unexpected Type: for operator ==, lhs: int[10], rhs: int[10]
+Line 6: Unexpected Type: for operator =, lhs: int, rhs: int[10]
+Line 7: badCall: 0-th param mismatch
+Line 8: lvalue: lvalue is required.
+Line 9: Unexpected Type: for operator +, lhs: int[10], rhs: int
+Line 10: Unexpected Type: for operator -, lhs: int[10], rhs: int

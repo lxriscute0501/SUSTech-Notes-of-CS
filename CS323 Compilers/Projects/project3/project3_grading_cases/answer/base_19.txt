@@ -1,0 +1,1 @@
+5:13: error: Redefinition of 'i'

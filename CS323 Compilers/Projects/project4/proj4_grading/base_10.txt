@@ -1,0 +1,6 @@
+Line 4: Unexpected Type: for operator ==, lhs: int[10], rhs: int[10]
+Line 6: badIdent: identifier is not a variable: get
+Line 7: lvalue: lvalue is required.
+Line 8: lvalue: lvalue is required.
+Line 9: lvalue: lvalue is required.
+Line 10: lvalue: lvalue is required.

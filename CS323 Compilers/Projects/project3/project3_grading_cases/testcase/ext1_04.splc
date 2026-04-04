@@ -1,0 +1,9 @@
+struct B;
+struct A {
+    struct B b_member;
+    int a[123];
+} a0;
+
+struct B {
+    int b;
+};

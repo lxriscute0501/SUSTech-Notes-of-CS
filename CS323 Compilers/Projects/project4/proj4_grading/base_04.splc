@@ -1,0 +1,7 @@
+int A[5];
+int f(int x, int y){return x + y;}
+int main() {
+    A == 1;                        // unmatchedTypeForBinaryOP
+    f(1);                         // badParamCount
+    return 0;
+}

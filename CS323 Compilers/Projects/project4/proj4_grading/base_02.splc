@@ -1,0 +1,9 @@
+int arr[10];
+int h(){}
+int proc(int x){}
+int main() {
+    arr();                        // identifierNotFunction
+    proc(arr);                    // badParamType
+    if (arr && 1) {}              // unexpectedType (array in logic)
+    return 0;
+}

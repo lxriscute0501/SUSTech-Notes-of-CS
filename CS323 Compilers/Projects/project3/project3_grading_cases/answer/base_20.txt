@@ -1,0 +1,1 @@
+2:4: error: Redeclaration of 'my_func'

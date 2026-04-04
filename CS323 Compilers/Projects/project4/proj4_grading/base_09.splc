@@ -1,0 +1,12 @@
+int a[5];
+int process(int x, int y) {return x + y;}
+int main() {
+    process(2);                   // badParamCount
+    a >= 0;                       // unexpectedType
+    a < 10;
+    a <= 10;
+    int a[2] = 4 <= 5;
+    a <= 10;
+    a + a;                        // unexpectedType (array + array)
+    return 0;
+}

@@ -1,0 +1,8 @@
+int table[10];
+int reader(){return 0;}
+int main() {
+    reader = 5;                   // identifierNotVariable (assign to func)
+    table > 3;                    // unexpectedType (relational on array)
+    reader(1,2,3);                // badParamCount
+    return 0;
+}

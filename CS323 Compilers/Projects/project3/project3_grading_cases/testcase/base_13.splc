@@ -1,0 +1,7 @@
+
+int local;
+int main() {
+    if (0) {
+        local = 123;
+    }
+}

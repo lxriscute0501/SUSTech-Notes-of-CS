@@ -1,0 +1,27 @@
+int a;
+
+int main(int a, int b[1]) {
+
+}
+
+char c;
+struct qwq {
+    struct qwq *ptr;
+} d[123];
+
+
+struct s0 {
+    struct s0 *p;
+    char *c[123];
+};
+
+struct s0 s0a;
+
+int v0[123];
+int *v1[123];
+int (*v2)[123];
+int *((*v3)[123]);
+int *(**(*v4)[123]);
+int *(**(*v5)[123])[345];
+
+int bcd[1][2][3][4];

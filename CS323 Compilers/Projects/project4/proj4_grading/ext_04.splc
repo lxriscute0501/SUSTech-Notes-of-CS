@@ -1,0 +1,20 @@
+struct Header { int magic; };
+struct Packet { struct Header h; };
+
+int hash() { return 1234; }
+int verify(struct Packet a, int b) { return 1; }
+int recv() { struct Packet p; p.h.magic = 0; return p; }
+
+int main() {
+    struct Packet rec;
+    rec.h.checksum = 123;      // badMember
+    if (recv()) {}
+    int h = hash + 10;            // identifierNotVariable
+    struct Packet pkt;
+    pkt();     // identifierNotFunction
+    recv() = 456456;                 // lvalueRequired
+    pkt = hash();                 // unmatchedTypeForBinaryOP
+    recv() != pkt;                // unmatchedTypeForBinaryOP
+    verify(rec);               // badParamCount
+    return 0;
+}

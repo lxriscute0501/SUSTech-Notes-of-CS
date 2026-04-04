@@ -1,0 +1,12 @@
+struct Data {
+    int val;
+    int *ptr_to_val;
+};
+struct data {
+    int a[123];
+    int *a[123];
+    int *((*a)[123]);
+    int *(**(*a)[123]);
+    int *(**(*a)[123])[345];
+} q;
+struct data *asd;

@@ -1,0 +1,229 @@
+Parse Tree:
+(program
+  (globalDef
+    (specifier int)
+    (varDec a) ; 
+  )
+  (globalDef
+    (specifier int)
+    (varDec b) ; 
+  )
+  (globalDef
+    (specifier int)
+    (varDec c) ; 
+  )
+  (globalDef
+    (specifier char)
+    (varDec d) ; 
+  )
+  (globalDef
+    (specifier int) ; 
+  )
+  (globalDef
+    (specifier char) ; 
+  )
+  (globalDef
+    (specifier int) a ( 
+    (funcArgs
+      (specifier char)
+      (varDec a) , 
+      (specifier char)
+      (varDec a) , 
+      (specifier char)
+      (varDec a) , 
+      (specifier char)
+      (varDec a) , 
+      (specifier char)
+      (varDec a)
+    ) ) { 
+    (statement
+      { 
+      (statement
+        { 
+        (statement { })
+        (statement { }) } 
+      ) } 
+    )
+    (statement
+      (specifier int)
+      (varDec a) ; 
+    )
+    (statement
+      if ( 
+      (expression
+        (expression
+          (expression a) || 
+          (expression
+            (expression b) && 
+            (expression c)
+          )
+        ) || 
+        (expression
+          (expression d) && 
+          (expression
+            ! 
+            (expression e)
+          )
+        )
+      ) ) 
+      (statement
+        { 
+        (statement
+          while ( 
+          (expression 1) ) 
+          (statement
+            if ( 
+            (expression b) ) 
+            (statement
+              while ( 
+              (expression c) ) 
+              (statement
+                if ( 
+                (expression d) ) 
+                (statement
+                  (expression d) ; 
+                ) else 
+                (statement
+                  { 
+                  (statement
+                    (expression v) ; 
+                  )
+                  (statement
+                    return 
+                    (expression a) ; 
+                  )
+                  (statement
+                    (expression a) ; 
+                  )
+                  (statement
+                    (expression 123) ; 
+                  )
+                  (statement
+                    (expression
+                      ( 
+                      (expression a) ) 
+                    ) ; 
+                  ) } 
+                )
+              )
+            )
+          )
+        ) } 
+      )
+    ) } 
+  )
+  (globalDef
+    (specifier int) main ( funcArgs ) { 
+    (statement
+      (specifier char)
+      (varDec c) = 
+      (expression 'A') ; 
+    )
+    (statement
+      (specifier char)
+      (varDec tab) = 
+      (expression '\t') ; 
+    )
+    (statement
+      if ( 
+      (expression
+        (expression c) == 
+        (expression 'A')
+      ) ) 
+      (statement
+        { 
+        (statement
+          return 
+          (expression 1) ; 
+        ) } 
+      )
+    )
+    (statement
+      return 
+      (expression
+        a ( 
+        (expression 1) , 
+        (expression 123) , 
+        (expression 2341234) , 
+        (expression 'a') , 
+        (expression 'q') , 
+        (expression 'w') , 
+        (expression 'q') ) 
+      ) ; 
+    )
+    (statement
+      (expression
+        a ( 
+        (expression 1) ) 
+      ) ; 
+    )
+    (statement
+      (expression
+        (expression 1) [ 
+        (expression 2) ] 
+      ) ; 
+    )
+    (statement
+      (expression
+        (expression
+          (expression a) ++ 
+        ) - 
+        (expression
+          ++ 
+          (expression a)
+        )
+      ) ; 
+    )
+    (statement
+      (specifier int)
+      (varDec you_win) = 
+      (expression
+        (expression
+          (expression
+            (expression
+              (expression i) -- 
+            ) + 
+            (expression
+              ! 
+              (expression
+                (expression
+                  a ( 
+                  (expression 1) ) 
+                ) ++ 
+              )
+            )
+          ) && 
+          (expression
+            (expression b) [ 
+            (expression 1) ] 
+          )
+        ) || 
+        (expression
+          (expression
+            (expression
+              - 
+              (expression c)
+            ) - 
+            (expression
+              + 
+              (expression
+                (expression c) -- 
+              )
+            )
+          ) <= 
+          (expression 123)
+        )
+      ) ; 
+    )
+    (statement
+      return 
+      (expression 0) ; 
+    ) } 
+  ) <EOF> 
+)
+
+ANTLR SyntaxError count: 0
+constexpr:
+not a constexpr.
+not a constexpr.
+not a constexpr.

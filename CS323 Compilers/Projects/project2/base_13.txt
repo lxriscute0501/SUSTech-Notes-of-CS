@@ -1,0 +1,39 @@
+Parse Tree:
+(program
+  (globalDef
+    (specifier int) multiply ( 
+    (funcArgs
+      (specifier int)
+      (varDec a) , 
+      (specifier int)
+      (varDec b)
+    ) ) { 
+    (statement
+      return 
+      (expression
+        (expression a) * 
+        (expression b)
+      ) ; 
+    ) } 
+  )
+  (globalDef
+    (specifier int) main ( funcArgs ) { 
+    (statement
+      (specifier int)
+      (varDec result) = 
+      (expression
+        multiply ( 
+        (expression 7) , 
+        (expression 6) ) 
+      ) ; 
+    )
+    (statement
+      return 
+      (expression result) ; 
+    ) } 
+  ) <EOF> 
+)
+
+ANTLR SyntaxError count: 0
+constexpr:
+not a constexpr.

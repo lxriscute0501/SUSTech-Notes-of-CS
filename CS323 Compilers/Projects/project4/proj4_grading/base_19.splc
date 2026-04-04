@@ -1,0 +1,29 @@
+int f();                          // 返回 int
+int g(int x, int y, int z) {return x + y + z;}
+int A[2][3][4][5][6];             // 5D array
+
+int main() {
+    // 1. identifierNotVariable: f 是函数，不能作索引
+    int x = A[f][0][0][0][0];
+    int y = A[f()][0][0][0][0];
+
+    // 2. identifierNotFunction: A 是数组，不能调用
+    A(1, 2, 3);
+
+    // 3. unexpectedType: if 条件中使用高维数组（非 int/pointer）
+    if (A[0]) {}                  // A[0] 是 int[3][4][5][6] → 非法
+
+    // 4. unexpectedType: while 条件中使用数组
+    while (A[0][0]) {}            // A[0][0] 是 int[4][5][6] → 非法
+
+    // 5. unmatchedTypeForBinaryOP: 赋值类型不匹配
+    A[0] = f();
+
+    // 6. badParamType + badParamCount: 混合错误
+    g(f(), f());                 // A[0] 类型错 + 参数数量对但类型错（仍算 badParamType）
+    g(A[0], 1, 1);
+    // 7. lvalueRequired: 对 rvalue 赋值
+    (f() + 1) = A[0][0][0][0][0];
+
+    return 0;
+}

@@ -1,0 +1,41 @@
+struct S { int a; };
+struct T { struct S s; int b; };
+
+// 函数定义（返回 int）
+int f() { return 0; }
+int g(int x, int y) { return x + y; }
+int h() { return 42; }
+
+int getT() {
+    struct T t;
+    t.s.a = 1;
+    t.b = 2;
+    return t;
+}
+
+int main() {
+    struct T tt;
+
+    tt.s.c = 1;               // badMember: c not in S
+
+    if (tt) {}                // unexpectedType: struct in if condition
+
+    int x = f + 1;                // identifierNotVariable: f is function, not variable
+
+    int y = 0;
+    y();               // identifierNotFunction: y is int, not function
+
+    getT(x);
+
+    struct T t1;
+
+    struct T t2;
+
+    t1 = h();                     // unmatchedTypeForBinaryOP: struct = int (violates [2.2.14])
+
+    t1 == t2;                     // unmatchedTypeForBinaryOP: struct == struct (violates [2.2.12] — not int/pointer)
+
+    g(getT());                    // badParamCount: expects 2 ints, got 1 int
+
+    return 0;
+}

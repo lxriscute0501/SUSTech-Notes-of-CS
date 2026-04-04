@@ -1,0 +1,4 @@
+Variables:
+
+Functions:
+main: int()

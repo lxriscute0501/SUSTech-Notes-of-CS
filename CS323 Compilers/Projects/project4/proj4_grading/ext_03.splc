@@ -1,0 +1,20 @@
+struct Color { int r; };
+struct Pixel { struct Color c; int alpha; };
+
+int rand() { return 42; }
+int blend(int x) { return x; }
+int newPx() { struct Pixel p; p.c.r = 255; p.alpha = 255; return p; }
+
+int main() {
+    struct Pixel pp;
+    pp.c.g = 100;            // badMember
+    while (pp) {}            // unexpectedType
+    int r = rand + 1;             // identifierNotVariable
+    struct Pixel px;
+    px();        // identifierNotFunction
+    newPx() = 44;                 // lvalueRequired
+    px = rand();                  // unmatchedTypeForBinaryOP
+    newPx() == px;                // unmatchedTypeForBinaryOP
+    blend(pp);
+    return 0;
+}

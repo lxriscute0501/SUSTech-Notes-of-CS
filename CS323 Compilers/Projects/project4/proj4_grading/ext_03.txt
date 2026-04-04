@@ -1,0 +1,9 @@
+Line 6: Unexpected Type: struct Pixel
+Line 10: Struct: 'g' is not a member of struct Color
+Line 11: Unexpected Type: struct Pixel
+Line 12: badIdent: identifier is not a variable: rand
+Line 14: badIdent: identifier is not a function: px
+Line 15: lvalue: lvalue is required.
+Line 16: Unexpected Type: for operator =, lhs: struct Pixel, rhs: int
+Line 17: Unexpected Type: for operator ==, lhs: int, rhs: struct Pixel
+Line 18: badCall: 0-th param mismatch

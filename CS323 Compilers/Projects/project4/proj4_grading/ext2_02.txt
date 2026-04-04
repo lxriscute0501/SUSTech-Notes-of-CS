@@ -1,0 +1,8 @@
+Line 15: Struct: 'name' is not a member of struct Node
+Line 16: Unexpected Type: for operator -, lhs: int, rhs: struct Node*
+Line 18: badIdent: identifier is not a variable: read
+Line 19: Unexpected Type: for operator +, lhs: struct Node*, rhs: struct Node*
+Line 24: Unexpected Type: for operator -, lhs: int, rhs: struct Node*
+Line 26: badCall: 0-th param mismatch
+Line 27: badCall: param count mismatch, requires: 3, given: 1
+Line 28: Unexpected Type: for operator =, lhs: struct Node*, rhs: int

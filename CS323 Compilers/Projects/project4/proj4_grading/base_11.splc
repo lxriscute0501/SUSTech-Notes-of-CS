@@ -1,0 +1,13 @@
+int M[3][4];
+int f(int x) {return M[2][1];}
+int main() {
+    M[0] = f(1);
+    f(M);                         // badParamType
+    M && 1;                       // unexpectedType
+    M[0] || 2;
+    M[0][2] || 2;
+    M[0][3] && 2;
+    !M[0][4];
+    !M;
+    return 0;
+}

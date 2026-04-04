@@ -1,0 +1,7 @@
+Variables:
+global_point: struct Point{int x;int y;}
+global_arr: char[10]
+
+Functions:
+func_decl: int(int,struct Point[21])
+main: int()

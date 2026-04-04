@@ -1,0 +1,24 @@
+struct L1 { int a; };
+struct L2 { struct L1 x; struct L1 y; };
+struct L3 { struct L2 pair; };
+
+int f() { return 1; }
+int g(int x) { return 0; }
+int h(int x, int y, int z) { return 0; }
+
+int main() {
+    struct L3 v1;
+    struct L3 v2;
+    v1.pair.x.b = 10;                 // badMember
+    if (v1.pair) {}                   // unexpectedType
+    int t = f + v1.pair.x.a;          // identifierNotVariable
+    v1.pair.x.a;                    // identifierNotFunction
+    (v1.pair) = v2.pair;
+    (v1).pair.x = v2.pair.x;     // OK. To get lvalueRequired, use:
+    v1.pair.x.a = 5;                // OK. Better:
+    // Use function return:
+    v1 = f();                         // unmatchedTypeForBinaryOP
+    g(v1.pair.x);                     // badParamType
+    h(v1.pair.x.a);                   // badParamCount
+    return 0;
+}

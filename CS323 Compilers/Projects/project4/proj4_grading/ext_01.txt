@@ -1,0 +1,9 @@
+Line 13: Unexpected Type: struct T
+Line 19: Struct: 'c' is not a member of struct S
+Line 21: Unexpected Type: struct T
+Line 23: badIdent: identifier is not a variable: f
+Line 26: badIdent: identifier is not a function: y
+Line 28: badCall: param count mismatch, requires: 0, given: 1
+Line 34: Unexpected Type: for operator =, lhs: struct T, rhs: int
+Line 36: Unexpected Type: for operator ==, lhs: struct T, rhs: struct T
+Line 38: badCall: param count mismatch, requires: 2, given: 1

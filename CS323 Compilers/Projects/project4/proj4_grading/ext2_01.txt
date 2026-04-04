@@ -1,0 +1,13 @@
+Line 27: Unexpected Type: for operator -, lhs: struct B*, rhs: struct A*
+Line 29: Struct: 'unknown' is not a member of struct B
+Line 31: Unexpected Type: struct A
+Line 33: badIdent: identifier is not a variable: f
+Line 35: badCall: 0-th param mismatch
+Line 37: badCall: param count mismatch, requires: 3, given: 1
+Line 43: Unexpected Type: for operator =, lhs: struct B*, rhs: int
+Line 44: Unexpected Type: for operator =, lhs: struct B*, rhs: int
+Line 46: Unexpected Type: struct B*
+Line 49: Unexpected Type: int[3]
+Line 52: Unexpected Type: struct A
+Line 55: Unexpected Type: int[3]
+Line 57: Unexpected Type: struct A

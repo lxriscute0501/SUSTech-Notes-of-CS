@@ -1,0 +1,60 @@
+struct A {
+    struct B *b_ptr;
+    int val;
+    int arr[3];
+};
+
+struct B {
+    struct A *a_ptr;
+    int data;
+};
+
+int f() { return 1; }
+int g(int x) { return x; }
+int h(int a, int b, int c) { return 0; }
+
+
+int main() {
+    struct A a1;
+    struct A a2;
+    struct B b1;
+    struct B b2;
+    a1.b_ptr = &b1;
+    b1.a_ptr = &a1;
+    a2.b_ptr = &b2;
+    b2.a_ptr = &a2;
+    int xx = a1.b_ptr - a2.b_ptr;
+    int yy = a1.b_ptr - b1.a_ptr;
+
+    a1.b_ptr->unknown = 10;
+
+    !a1;
+
+    int x = f + a1.val;
+
+    g(a1);
+
+    h(a1.val);
+
+    // 8. unmatchedTypeForBinaryOP: 指针 + 指针（[2.2.9] 非法）
+    while (a1.b_ptr - a1.b_ptr) {}
+
+    // 10. unmatchedTypeForBinaryOP:
+    a1.b_ptr = f();
+    a1.b_ptr = h(0 , 1, 2);
+    // 11. unmatchedTypeForBinaryOP: 指针 == 非零整型（[2.2.12] 非法）
+    if (a1.b_ptr >= 1) {}
+
+    // 12. unexpectedType: 数组用于一元负号（[2.2.10] 要求 int）
+    -a1.arr;
+
+    // 13. unexpectedType: struct 用于乘法（[2.2.10] 要求 int）
+    a1 * 2;
+
+
+    a1.arr > 0;
+
+    int y = a2.arr[a1];
+
+    return 0;
+}

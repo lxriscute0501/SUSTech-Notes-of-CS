@@ -1,0 +1,6 @@
+Variables:
+a: int
+b: char
+c: int[13][12][11][10]
+
+Functions:
