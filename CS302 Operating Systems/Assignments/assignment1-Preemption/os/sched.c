@@ -78,7 +78,7 @@ void scheduler() {
 
         acquire(&p->lock);
         assert(p->state == RUNNABLE);
-        logf(PURPLE, "sched", "switch to proc pid(%d)", p->pid);
+        // logf(PURPLE, "sched", "switch to proc pid(%d)", p->pid);
         p->state = RUNNING;
         c->proc  = p;
         swtch(&c->sched_context, &p->context);
@@ -118,7 +118,7 @@ void sched() {
     assert(!intr_get());
 
     interrupt_on = mycpu()->interrupt_on;
-    logf(PURPLE, "sched", "switch to scheduler pid(%d)", p->pid);
+    // logf(PURPLE, "sched", "switch to scheduler pid(%d)", p->pid);
     swtch(&p->context, &mycpu()->sched_context);
     mycpu()->interrupt_on = interrupt_on;
 

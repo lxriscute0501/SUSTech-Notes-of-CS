@@ -49,7 +49,27 @@ void kernel_trap(struct ktrapframe *ktf) {
             case SupervisorTimer:
                 tracef("s-timer interrupt, cycle: %d", r_time());
                 set_next_timer();
-                // we never preempt kernel threads.
+
+                // Preempt only when a kernel thread is currently running.
+                // If the scheduler itself is interrupted while waiting in wfi,
+                // curr_proc() is NULL and yielding would be invalid.
+                struct proc *p = curr_proc();
+                if (p != NULL) {
+                    // Save trap-return CSRs for the interrupted kernel thread.
+                    // They may be changed while other threads run after yield().
+                    uint64 saved_sepc = r_sepc();
+                    uint64 saved_sstatus = r_sstatus();
+                    int saved_inkernel_trap = mycpu()->inkernel_trap;
+
+                    // sched() rejects being called from kernel trap context.
+                    mycpu()->inkernel_trap = 0;
+                    yield();
+                    mycpu()->inkernel_trap = saved_inkernel_trap;
+
+                    // Restore trap-return state before leaving this handler.
+                    w_sepc(saved_sepc);
+                    w_sstatus(saved_sstatus);
+                }
                 break;
             case SupervisorExternal:
                 tracef("s-external interrupt.");
