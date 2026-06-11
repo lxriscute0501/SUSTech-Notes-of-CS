@@ -1,0 +1,89 @@
+id,code,name,region
+1,NS,Caucasus Airlines,Georgia
+2,MM,Peach Aviation,Japan
+3,FR,Ryanair,Ireland
+4,KL,KLM Royal Dutch Airlines,Netherlands
+5,JW,Arrow Air,United States
+6,MU,China Eastern Airlines,China
+7,ET,Ethiopian Airlines,Ethiopia
+8,KU,Kuwait Airways,Kuwait
+9,GS,Air Foyle,United Kingdom
+10,MF,Xiamen Airlines,China
+11,CZ,China Southern Airlines,China
+12,PN,West Air China,China
+13,DL,Delta Air Lines,United States
+14,AM,AeroMéxico,Mexico
+15,TK,Turkish Airlines,Turkey
+16,GE,TransAsia Airways,Taiwan
+17,CX,Cathay Pacific,Hong Kong SAR of China
+18,KA,Dragonair,DRAGON
+19,MI,SilkAir,Singapore
+20,B7,Uni Air,Taiwan
+21,UA,United Airlines,United States
+22,KY,KSY,Greece
+23,VS,Virgin Atlantic Airways,United Kingdom
+24,HO,Juneyao Airlines,China
+25,SE,XL Airways France,France
+26,AZ,Alitalia,Italy
+27,UO,Hong Kong Express Airways,Hong Kong SAR of China
+28,AF,Air France,France
+29,QR,Qatar Airways,Qatar
+30,NH,All Nippon Airways,Japan
+31,UX,Air Europa,Spain
+32,G5,Huaxia,China
+33,AE,Mandarin Airlines,Taiwan
+34,3K,Jetstar Asia Airways,Singapore
+35,JJ,TAM Brazilian Airlines,Brazil
+36,US,US Airways,United States
+37,EU,Empresa Ecuatoriana De Aviacion,Ecuador
+38,9C,China SSS,China
+39,JD,Japan Air System,Japan
+40,PK,Pakistan International Airlines,Pakistan
+41,B6,JetBlue Airways,United States
+42,DZ,Starline.kz,Kazakhstan
+43,TN,Air Tahiti Nui,France
+44,AY,Finnair,Finland
+45,BA,British Airways,United Kingdom
+46,NZ,Air New Zealand,New Zealand
+47,EK,Emirates,United Arab Emirates
+48,ZB,Air Bourbon,Reunion
+49,CI,China Airlines,Taiwan
+50,SU,Aeroflot Russian Airlines,Russia
+51,7C,Jeju Air,Republic of Korea
+52,TW,Tway Airlines,South Korea
+53,TR,Tiger Airways,Singapore
+54,VA,Virgin Australia,Australia
+55,VY,Formosa Airlines,Taiwan
+56,ZH,Shenzhen Airlines,China
+57,KN,China United,China
+58,BV,Blue Panorama Airlines,Italy
+59,TG,Thai Airways International,Thailand
+60,HX,Hong Kong Airlines,Hong Kong SAR of China
+61,BK,Potomac Air,United States
+62,LH,Lufthansa,Germany
+63,BR,EVA Air,Taiwan
+64,S7,S7 Airlines,Russia
+65,SQ,Singapore Airlines,Singapore
+66,FM,Shanghai Airlines,China
+67,CN,Canadian National Airways,Canada
+68,IB,Iberia Airlines,Spain
+69,AA,American Airlines,United States
+70,TZ,Scoot,Singapore
+71,OZ,Asiana Airlines,Republic of Korea
+72,KE,Korean Air,Republic of Korea
+73,GA,Garuda Indonesia,Indonesia
+74,3U,Sichuan Airlines,China
+75,GK,Genesis,Pakistan
+76,QF,Qantas,Australia
+77,U2,easyJet,United Kingdom
+78,TV,Virgin Express,Belgium
+79,SC,Shandong Airlines,China
+80,JL,Japan Airlines,Japan
+81,EY,Etihad Airways,United Arab Emirates
+82,LJ,Jin Air,South Korea
+83,AI,Air India Limited,India
+84,8L,Cargo Plus Aviation,United Arab Emirates
+85,UN,Transaero Airlines,Russia
+86,CA,Air China,China
+87,ZE,Eastar Jet,South Korea
+88,HU,Hainan Airlines,China

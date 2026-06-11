@@ -1,0 +1,205 @@
+id,name,city,region,iata_code,latitude,longitude,altitude,timezone_offset,timezone_dst,timezone_region
+1,London Luton Airport,London,United Kingdom,LTN,51.874699,-0.368333,526,0,E,Europe/London
+2,London City Airport,London,United Kingdom,LCY,51.505299,0.055278,19,0,E,Europe/London
+3,Barcelona International Airport,Barcelona,Spain,BCN,41.2971,2.07846,12,1,E,Europe/Madrid
+4,Marseille Provence Airport,Marseille,France,MRS,43.439272,5.221424,74,1,E,Europe/Paris
+5,Charles de Gaulle International Airport,Paris,France,CDG,49.012798,2.55,392,1,E,Europe/Paris
+6,Leonardo da Vinci–Fiumicino Airport,Rome,Italy,FCO,41.800278,12.238889,13,1,E,Europe/Rome
+7,Wellington International Airport,Wellington,New Zealand,WLG,-41.327202,174.804993,41,12,Z,Pacific/Auckland
+8,Kinmen Airport,Kinmen,Taiwan,KNH,24.4279,118.359001,93,8,U,Asia/Taipei
+9,Taitung Airport,Fengnin,Taiwan,TTT,22.754999,121.101997,143,8,U,Asia/Taipei
+10,Kaohsiung International Airport,Kaohsiung,Taiwan,KHH,22.577101,120.349999,31,8,U,Asia/Taipei
+11,Taichung Ching Chuang Kang Airport,Taichung,Taiwan,RMQ,24.2647,120.621002,663,8,N,Asia/Taipei
+12,Tainan Airport,Tainan,Taiwan,TNN,22.950399,120.206001,63,8,U,Asia/Taipei
+13,Makung Airport,Makung,Taiwan,MZG,23.568701,119.627998,103,8,U,Asia/Taipei
+14,Taipei Songshan Airport,Taipei,Taiwan,TSA,25.069401,121.552002,18,8,U,Asia/Taipei
+15,Taiwan Taoyuan International Airport,Taipei,Taiwan,TPE,25.0777,121.233002,106,8,U,Asia/Taipei
+16,Hualien Airport,Hualien,Taiwan,HUN,24.0231,121.617996,52,8,U,Asia/Taipei
+17,Narita International Airport,Tokyo,Japan,NRT,35.764702,140.386002,141,9,U,Asia/Tokyo
+18,Osaka International Airport,Osaka,Japan,ITM,34.7855,135.438004,50,9,U,Asia/Tokyo
+19,Gimpo International Airport,Seoul,South Korea,GMP,37.5583,126.791,59,9,U,Asia/Seoul
+20,Sheremetyevo International Airport,Moscow,Russia,SVO,55.972599,37.4146,622,3,N,Europe/Moscow
+21,Vnukovo International Airport,Moscow,Russia,VKO,55.591499,37.261501,685,3,N,Europe/Moscow
+22,Hong Kong International Airport,Hong Kong,Hong Kong,HKG,22.308901,113.915001,28,8,U,Asia/Hong_Kong
+23,Singapore Changi Airport,Singapore,Singapore,SIN,1.35019,103.994003,22,8,N,Asia/Singapore
+24,Sydney Kingsford Smith International Airport,Sydney,Australia,SYD,-33.946098,151.177002,21,10,O,Australia/Sydney
+25,Beijing Capital International Airport,Beijing,China,PEK,40.080101,116.584999,116,8,U,Asia/Shanghai
+26,Dongshan Airport,Hailar,China,HLD,49.205002,119.824997,2169,8,U,Asia/Shanghai
+27,Tianjin Binhai International Airport,Tianjin,China,TSN,39.124401,117.346001,10,8,U,Asia/Shanghai
+28,Taiyuan Wusu Airport,Taiyuan,China,TYN,37.746899,112.627998,2575,8,U,Asia/Shanghai
+29,Guangzhou Baiyun International Airport,Guangzhou,China,CAN,23.392401,113.299004,50,8,U,Asia/Shanghai
+30,Changsha Huanghua International Airport,Changcha,China,CSX,28.189199,113.220001,217,8,U,Asia/Shanghai
+31,Guilin Liangjiang International Airport,Guilin,China,KWL,25.2181,110.039002,570,8,U,Asia/Shanghai
+32,Nanning Wuxu Airport,Nanning,China,NNG,22.608299,108.171997,421,8,U,Asia/Shanghai
+33,Shenzhen Bao'an International Airport,Shenzhen,China,SZX,22.639299,113.810997,13,8,U,Asia/Shanghai
+34,Zhengzhou Xinzheng International Airport,Zhengzhou,China,CGO,34.519699,113.841003,495,8,U,Asia/Shanghai
+35,Wuhan Tianhe International Airport,Wuhan,China,WUH,30.7838,114.208,113,8,U,Asia/Shanghai
+36,Lanzhou Zhongchuan Airport,Lanzhou,China,LHW,36.515202,103.620003,6388,8,U,Asia/Shanghai
+37,Xi'an Xianyang International Airport,Xi'an,China,XIY,34.447102,108.751999,1572,8,U,Asia/Shanghai
+38,Xishuangbanna Gasa Airport,Jinghonggasa,China,JHG,21.9739,100.760002,1815,8,U,Asia/Shanghai
+39,Kunming Changshui International Airport,Kunming,China,KMG,25.101944,102.929167,6903,8,N,Asia/Shanghai
+40,Xiamen Gaoqi International Airport,Xiamen,China,XMN,24.544001,118.127998,59,8,U,Asia/Shanghai
+41,Nanchang Changbei International Airport,Nanchang,China,KHN,28.865,115.900002,143,8,U,Asia/Shanghai
+42,Fuzhou Changle International Airport,Fuzhou,China,FOC,25.935101,119.663002,46,8,U,Asia/Shanghai
+43,Hangzhou Xiaoshan International Airport,Hangzhou,China,HGH,30.2295,120.433998,23,8,U,Asia/Shanghai
+44,Ningbo Lishe International Airport,Ninbo,China,NGB,29.8267,121.461998,13,8,U,Asia/Shanghai
+45,Nanjing Lukou Airport,Nanjing,China,NKG,31.742001,118.862,49,8,U,Asia/Shanghai
+46,Hefei Luogang International Airport,Hefei,China,HFE,31.780001,117.297997,108,8,U,Asia/Shanghai
+47,Liuting Airport,Qingdao,China,TAO,36.266102,120.374001,33,8,U,Asia/Shanghai
+48,Shanghai Hongqiao International Airport,Shanghai,China,SHA,31.197901,121.335999,10,8,U,Asia/Shanghai
+49,Yantai Laishan Airport,Yantai,China,YNT,37.401699,121.372002,59,8,U,Asia/Shanghai
+50,Chongqing Jiangbei International Airport,Chongqing,China,CKG,29.7192,106.641998,1365,8,U,Asia/Shanghai
+51,Longdongbao Airport,Guiyang,China,KWE,26.5385,106.801003,3736,8,U,Asia/Shanghai
+52,Chengdu Shuangliu International Airport,Chengdu,China,CTU,30.578501,103.946999,1625,8,U,Asia/Shanghai
+53,Xichang Qingshan Airport,Xichang,China,XIC,27.9891,102.183998,5112,8,U,Asia/Shanghai
+54,Kashgar Airport,Kashi,China,KHG,39.5429,76.019997,4529,8,U,Asia/Shanghai
+55,Hotan Airport,Hotan,China,HTN,37.038502,79.864899,4672,8,U,Asia/Shanghai
+56,Ürümqi Diwopu International Airport,Urumqi,China,URC,43.907101,87.474197,2125,8,U,Asia/Shanghai
+57,Taiping Airport,Harbin,China,HRB,45.623402,126.25,457,8,U,Asia/Shanghai
+58,Mudanjiang Hailang International Airport,Mudanjiang,China,MDG,44.524101,129.569,883,8,U,Asia/Shanghai
+59,Zhoushuizi Airport,Dalian,China,DLC,38.965698,121.539002,107,8,U,Asia/Shanghai
+60,Shanghai Pudong International Airport,Shanghai,China,PVG,31.1434,121.805,13,8,U,Asia/Shanghai
+61,Ronald Reagan Washington National Airport,Washington,United States,DCA,38.8521,-77.037697,15,-5,A,America/New_York
+62,La Guardia Airport,New York,United States,LGA,40.777199,-73.872597,21,-5,A,America/New_York
+63,Washington Dulles International Airport,Washington,United States,IAD,38.9445,-77.455803,312,-5,A,America/New_York
+64,John F Kennedy International Airport,New York,United States,JFK,40.639801,-73.7789,13,-5,A,America/New_York
+65,Incheon International Airport,Seoul,South Korea,ICN,37.469101,126.450996,23,9,U,Asia/Seoul
+66,Kansai International Airport,Osaka,Japan,KIX,34.4273,135.244003,26,9,U,Asia/Tokyo
+67,Domodedovo International Airport,Moscow,Russia,DME,55.408798,37.9063,588,3,N,Europe/Moscow
+68,Sanya Phoenix International Airport,Sanya,China,SYX,18.3029,109.412003,92,8,U,Asia/Shanghai
+69,Lijiang Airport,Lijiang,China,LJG,26.68,100.246002,0,8,U,Asia/Shanghai
+70,Dali Airport,Dali,China,DLU,25.649401,100.319,7050,8,U,Asia/Shanghai
+71,Lhasa Gonggar Airport,Lhasa,China,LXA,29.2978,90.911903,11713,8,U,Asia/Shanghai
+72,Yaoqiang Airport,Jinan,China,TNA,36.857201,117.216003,76,8,U,Asia/Shanghai
+73,Changzhou Benniu Airport,Changzhou,China,CZX,31.919701,119.778999,0,8,U,Asia/Shanghai
+74,Yibin Caiba Airport,Yibin,China,YBP,28.800556,104.545,924,8,U,Asia/Shanghai
+75,Haikou Meilan International Airport,Haikou,China,HAK,19.9349,110.459,75,8,U,Asia/Shanghai
+76,Taoxian Airport,Shenyang,China,SHE,41.639801,123.483002,198,8,U,Asia/Shanghai
+77,Dongying Shengli Airport,Dongying,China,DOY,37.508598,118.788002,15,8,U,Asia/Shanghai
+78,Luoyang Airport,Luoyang,China,LYA,34.7411,112.388001,840,8,U,Asia/Shanghai
+79,Xuzhou Guanyin Airport,Xuzhou,China,XUZ,34.059056,117.555278,0,8,U,Asia/Shanghai
+80,Jiuzhai Huanglong Airport,Jiuzhaigou,China,JZH,32.853333,103.682222,11327,8,U,Asia/Shanghai
+81,Jieyang Chaoshan International Airport,Shantou,China,SWA,23.552,116.5033,0,8,U,Asia/Shanghai
+82,Dunhuang Airport,Dunhuang,China,DNH,40.161098,94.809196,0,8,U,Asia/Shanghai
+83,Longjia Airport,Changchun,China,CGQ,43.996201,125.684998,706,8,U,Asia/Shanghai
+84,Beijing Nanyuan Airport,Beijing,China,NAY,39.782799,116.388001,0,8,U,Asia/Shanghai
+85,Chifeng Airport,Chifeng,China,CIF,42.235001,118.907997,0,8,U,Asia/Shanghai
+86,Changzhi Airport,Changzhi,China,CIH,36.247501,113.125999,0,8,U,Asia/Shanghai
+87,Datong Airport,Datong,China,DAT,40.060299,113.482002,3442,8,U,Asia/Shanghai
+88,Baita International Airport,Hohhot,China,HET,40.851398,111.823997,3556,8,U,Asia/Shanghai
+89,Baotou Airport,Baotou,China,BAV,40.560001,109.997002,3321,8,U,Asia/Shanghai
+90,Shijiazhuang Daguocun International Airport,Shijiazhuang,China,SJW,38.280701,114.696999,233,8,U,Asia/Shanghai
+91,Tongliao Airport,Tongliao,China,TGO,43.556702,122.199997,2395,8,U,Asia/Shanghai
+92,Ulanhot Airport,Ulanhot,China,HLH,46.195333,122.008333,0,8,U,Asia/Shanghai
+93,Xilinhot Airport,Xilinhot,China,XIL,43.9156,115.963997,0,8,U,Asia/Shanghai
+94,Beihai Airport,Beihai,China,BHY,21.5394,109.293999,0,8,U,Asia/Shanghai
+95,Changde Airport,Changde,China,CGD,28.9189,111.639999,128,8,U,Asia/Shanghai
+96,Dayong Airport,Dayong,China,DYG,29.1028,110.443001,692,8,U,Asia/Shanghai
+97,Meixian Airport,Meixian,China,MXZ,24.35,116.133003,0,8,U,Asia/Shanghai
+98,Zhuhai Jinwan Airport,Zhuhai,China,ZUH,22.006399,113.375999,23,8,U,Asia/Shanghai
+99,Liuzhou Bailian Airport,Liuzhou,China,LZH,24.2075,109.390999,295,8,U,Asia/Shanghai
+100,Zhanjiang Airport,Zhanjiang,China,ZHA,21.214399,110.358002,125,8,U,Asia/Shanghai
+101,Enshi Airport,Enshi,China,ENH,30.320299,109.485001,1605,8,U,Asia/Shanghai
+102,Nanyang Jiangying Airport,Nanyang,China,NNY,32.980801,112.614998,840,8,U,Asia/Shanghai
+103,Xiangyang Liuji Airport,Xiangfan,China,XFN,32.1506,112.291,0,8,U,Asia/Shanghai
+104,Yichang Sanxia Airport,Yichang,China,YIH,30.55655,111.479988,673,8,U,Asia/Shanghai
+105,Golmud Airport,Golmud,China,GOQ,36.4006,94.786102,9334,8,U,Asia/Shanghai
+106,Qingyang Airport,Qingyang,China,IQN,35.799702,107.602997,0,8,U,Asia/Shanghai
+107,Xining Caojiabu Airport,Xining,China,XNN,36.5275,102.042999,7119,8,U,Asia/Shanghai
+108,Yan'an Ershilipu Airport,Yan'an,China,ENY,36.636902,109.554001,3100,8,U,Asia/Shanghai
+109,Yulin Yuyang Airport,Yulin,China,UYN,38.35971,109.590927,0,8,U,Asia/Shanghai
+110,Diqing Airport,Shangri-La,China,DIG,27.7936,99.6772,10761,8,U,Asia/Shanghai
+111,Mangshi Airport,Luxi,China,LUM,24.4011,98.5317,2890,8,U,Asia/Shanghai
+112,Pu'er Simao Airport,Simao,China,SYM,22.793301,100.959,0,8,U,Asia/Shanghai
+113,Zhaotong Airport,Zhaotong,China,ZAT,27.3256,103.754997,0,8,U,Asia/Shanghai
+114,Ganzhou Airport,Ganzhou,China,KOW,25.853333,114.778889,387,8,U,Asia/Shanghai
+115,Jingdezhen Airport,Jingdezhen,China,JDZ,29.3386,117.176003,112,8,U,Asia/Shanghai
+116,Jiujiang Lushan Airport,Jiujiang,China,JIU,29.476944,115.801111,0,8,U,Asia/Shanghai
+117,Quzhou Airport,Quzhou,China,JUZ,28.965799,118.899002,0,8,U,Asia/Shanghai
+118,Lianyungang Airport,Lianyungang,China,LYG,34.571667,118.873611,0,8,U,Asia/Shanghai
+119,Huangyan Luqiao Airport,Huangyan,China,HYN,28.562201,121.429001,0,8,U,Asia/Shanghai
+120,Shubuling Airport,Linyi,China,LYI,35.046101,118.412003,0,8,U,Asia/Shanghai
+121,Quanzhou Jinjiang International Airport,Quanzhou,China,JJN,24.7964,118.589996,0,8,U,Asia/Shanghai
+122,Tunxi International Airport,Huangshan,China,TXN,29.733299,118.255997,0,8,U,Asia/Shanghai
+123,Weifang Airport,Weifang,China,WEF,36.646702,119.119003,0,8,U,Asia/Shanghai
+124,Sunan Shuofang International Airport,Wuxi,China,WUX,31.4944,120.429001,24,8,U,Asia/Shanghai
+125,Nanping Wuyishan Airport,Wuyishan,China,WUS,27.7019,118.000999,614,8,U,Asia/Shanghai
+126,Wenzhou Longwan International Airport,Wenzhou,China,WNZ,27.912201,120.851997,0,8,U,Asia/Shanghai
+127,Yancheng Airport,Yancheng,China,YNZ,33.425833,120.203056,0,8,U,Asia/Shanghai
+128,Yiwu Airport,Yiwu,China,YIW,29.3447,120.031998,262,8,U,Asia/Shanghai
+129,Zhoushan Airport,Zhoushan,China,HSN,29.9342,122.362,3,8,U,Asia/Shanghai
+130,Qamdo Bangda Airport,Bangda,China,BPX,30.5536,97.108299,14219,8,U,Asia/Shanghai
+131,Dachuan Airport,Dazhou,China,DAX,31.1302,107.4295,0,8,U,Asia/Shanghai
+132,Guangyuan Airport,Guangyuan,China,GYS,32.391102,105.702004,0,8,U,Asia/Shanghai
+133,Luzhou Airport,Luzhou,China,LZO,28.8522,105.392998,0,8,U,Asia/Shanghai
+134,Mianyang Airport,Mianyang,China,MIG,31.428101,104.740997,0,8,U,Asia/Shanghai
+135,Nanchong Airport,Nanchong,China,NAO,30.79545,106.1626,0,8,U,Asia/Shanghai
+136,Nyingchi Airport,Nyingchi,China,LZY,29.303301,94.335297,9675,8,U,Asia/Shanghai
+137,Wanxian Airport,Wanxian,China,WXN,30.8017,108.433,0,8,U,Asia/Shanghai
+138,Aksu Airport,Aksu,China,AKU,41.262501,80.291702,3816,8,U,Asia/Shanghai
+139,Kuqa Airport,Kuqa,China,KCA,41.677856,82.872917,3524,8,U,Asia/Shanghai
+140,Korla Airport,Korla,China,KRL,41.6978,86.128899,0,8,U,Asia/Shanghai
+141,Karamay Airport,Karamay,China,KRY,45.46655,84.9527,0,8,U,Asia/Shanghai
+142,Yining Airport,Yining,China,YIN,43.955799,81.330299,0,8,U,Asia/Shanghai
+143,Heihe Airport,Heihe,China,HEK,50.171621,127.308884,8530,8,U,Asia/Shanghai
+144,Jiamusi Airport,Jiamusi,China,JMU,46.843399,130.464996,262,8,U,Asia/Shanghai
+145,Jinzhou Airport,Jinzhou,China,JNZ,41.101398,121.061997,0,8,U,Asia/Shanghai
+146,Qiqihar Sanjiazi Airport,Qiqihar,China,NDG,47.239601,123.917999,477,8,U,Asia/Shanghai
+147,Yanji Chaoyangchuan Airport,Yanji,China,YNJ,42.882801,129.451004,624,8,U,Asia/Shanghai
+148,Anqing Tianzhushan Airport,Anqing,China,AQG,30.582199,117.050003,0,8,N,Asia/Shanghai
+149,Shanhaiguan Airport,Qinhuangdao,China,SHP,39.968102,119.731003,30,8,N,Asia/Shanghai
+150,Yuncheng Guangong Airport,Yuncheng,China,YCU,35.116391,111.031389,1242,8,N,Asia/Shanghai
+151,Jiayuguan Airport,Jiayuguan,China,JGN,39.856899,98.3414,5112,8,N,Asia/Shanghai
+152,Dandong Airport,Dandong,China,DDG,40.0247,124.286003,30,8,N,Asia/Shanghai
+153,Ordos Ejin Horo Airport,Dongsheng,China,DSN,39.49,109.861389,4557,8,N,Asia/Shanghai
+154,Bao'anying Airport,Panzhihua,China,PZI,26.54,101.79852,1620,8,N,Asia/Shanghai
+155,Hami Airport,Hami,China,HMI,42.8414,93.669197,2703,8,U,Asia/Shanghai
+156,Wuzhou Changzhoudao Airport,Wuzhou,China,WUZ,23.456699,111.248001,89,8,U,Asia/Shanghai
+157,Tacheng Airport,Tacheng,China,TCG,46.672501,83.340797,0,8,U,Asia/Shanghai
+158,Chaoyang Airport,Chaoyang,China,CHG,41.538101,120.434998,568,8,U,Asia/Shanghai
+159,Gu-Lian Airport,Mohe County,China,OHE,52.912778,122.43,1836,8,U,Asia/Shanghai
+160,Jining Qufu Airport,Jining,China,JNG,35.292778,116.346667,134,8,U,Asia/Shanghai
+161,Altay Air Base,Altay,China,AAT,47.749886,88.085808,2460,8,U,Asia/Shanghai
+162,Manzhouli Xijiao Airport,Manzhouli,China,NZH,49.566667,117.33,2231,8,U,Asia/Shanghai
+163,Wuhai Airport,Wuhai,China,WUA,39.7934,106.7993,3650,8,U,Asia/Shanghai
+164,Tongren Fenghuang Airport,Tongren,China,TEN,27.883333,109.308889,0,8,U,Asia/Shanghai
+165,Foshan Shadi Airport,Foshan,China,FUO,23.0833,113.07,6,8,N,Asia/Shanghai
+166,Fuyang Xiguan Airport,Fuyang,China,FUG,32.882157,115.734364,104,8,U,Asia/Shanghai
+167,Longyan Guanzhishan Airport,Longyan,China,LCX,25.6747,116.747002,1225,8,U,Asia/Shanghai
+168,Baoshan Yunduan Airport,Baoshan,China,BSD,25.053301,99.168297,5453,8,U,Asia/Shanghai
+169,Xingyi Airport,Xingyi,China,ACX,25.086389,104.959444,4150,8,U,Asia/Shanghai
+170,Liping Airport,Liping,China,HZH,26.32217,109.1499,1620,8,U,Asia/Shanghai
+171,Zhijiang Airport,Zhijiang,China,HJJ,27.441111,109.7,882,8,U,Asia/Shanghai
+172,Lintsang Airfield,Lincang,China,LNJ,23.7381,100.025002,6230,8,U,Asia/Shanghai
+173,Tengchong Tuofeng Airport,Tengchong,China,TCZ,24.938056,98.485833,6250,8,N,Asia/Shanghai
+174,Yushu Batang Airport,Yushu,China,YUS,32.836389,97.036389,12816,8,U,Asia/Shanghai
+175,Lianshui Airport,Huai An,China,HIA,33.790833,119.125,28,8,N,Asia/Shanghai
+176,Ngari Gunsa Airport,Shiquanhe,China,NGQ,32.1,80.053056,14022,8,N,Asia/Shanghai
+177,Mackenzie Airport,Mackenzie British Columbia,Canada,null,55.304402,-123.132004,2264,-8,A,America/Vancouver
+178,Zhongwei Shapotou Airport,Zhongwei,China,ZHY,37.573125,105.154454,8202,8,N,Asia/Shanghai
+179,Baise Youjiang Airport,Baise,China,AEB,23.7206,106.959999,490,8,N,Asia/Shanghai
+180,Handan Airport,Handan,China,HDG,36.525833,114.425556,229,8,N,Asia/Shanghai
+181,Jixi Xingkaihu Airport,Jixi,China,JXA,45.293,131.193,760,8,N,Asia/Shanghai
+182,Bayannur Tianjitai Airport,Bayannur,China,RLK,40.926,107.7428,3400,8,U,Asia/Shanghai
+183,Qianjiang Wulingshan Airport,Qianjiang,China,JIQ,29.513333,108.831111,2075,8,N,Asia/Shanghai
+184,Changbaishan Airport,Baishan,China,NBS,42.066944,127.602222,2874,8,N,Asia/Shanghai
+185,Lingling Airport,Yongzhou,China,LLF,26.338661,111.610043,340,8,U,Asia/Shanghai
+186,Yangzhou Taizhou Airport,Yangzhou,China,YTY,32.5634,119.7198,7,8,N,Asia/Shanghai
+187,Kangding Airport,Kangding,China,KGT,30.1575,101.734722,14042,8,N,Asia/Shanghai
+188,Jiagedaqi Airport,Jiagedaqi District,China,JGD,50.371389,124.1175,1205,8,N,Asia/Shanghai
+189,Bijie Feixiong Airport,Bijie,China,BFJ,27.267066,105.472097,4751,8,N,Asia/Shanghai
+190,Yichun Mingyueshan Airport,Yichun,China,YIC,27.8025,114.3062,430,8,U,Asia/Shanghai
+191,Daocheng Yading Airport,Daocheng,China,DCY,29.323056,100.053333,14472,8,N,Asia/Shanghai
+192,Gannan Xiahe Airport,Xiahe city,China,GXH,34.8105,102.6447,10510,8,N,Asia/Shanghai
+193,Xinyuan Nalati Airport,Xinyuan,China,NLT,43.4318,83.3786,3050,8,U,Asia/Shanghai
+194,Jiuhuashan Airport,Chizhou,China,JUH,30.7403,117.6856,60,8,N,Asia/Shanghai
+195,Anshan Air Base,Anshan,China,AOG,41.105301,122.853996,0,8,N,Asia/Shanghai
+196,Saertu Airport,Daqing,China,DQA,46.746389,125.140556,496,8,N,Asia/Shanghai
+197,Zunyi Xinzhou Airport,Zunyi,China,ZYI,27.5895,107.0007,2920,8,N,Asia/Shanghai
+198,Lindu Airport,Yinchun,China,LDS,47.752056,129.019125,791,8,N,Asia/Shanghai
+199,Anshun Huangguoshu Airport,Anshun,China,AVA,26.260556,105.873333,4812,8,N,Asia/Shanghai
+200,Erenhot Saiwusu International Airport,Erenhot,China,ERL,43.4225,112.096667,3301,8,N,null
+201,Zhangjiakou Ningyuan Airport,Zhangjiakou,China,ZQZ,40.738602,114.93,2347,8,N,null
+202,Arxan Yi'ershi Airport,Arxan,China,YIE,47.3106,119.9117,2925,8,N,null
+203,Jinchuan Airport,Jinchuan,China,JIC,38.542222,102.348333,4740,8,U,null
+204,Alashankou Bole (Bortala) airport,Bole,China,BPL,44.895,82.3,1253,8,N,null
